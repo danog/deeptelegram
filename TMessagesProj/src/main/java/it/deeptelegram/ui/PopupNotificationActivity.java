@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -42,7 +42,7 @@ import it.deeptelegram.messenger.ContactsController;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.MediaController;
 import it.deeptelegram.messenger.MessagesController;
-import org.telegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
 import it.deeptelegram.messenger.NotificationsController;
 import it.deeptelegram.messenger.UserObject;
 import it.deeptelegram.messenger.ApplicationLoader;
@@ -50,20 +50,20 @@ import it.deeptelegram.messenger.FileLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.MessageObject;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.Components.ChatActivityEnterView;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.PopupAudioView;
-import org.telegram.ui.Components.RecordStatusDrawable;
-import org.telegram.ui.Components.SizeNotifierFrameLayout;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.TypingDotsDrawable;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.Components.BackupImageView;
+import it.deeptelegram.ui.Components.ChatActivityEnterView;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.PopupAudioView;
+import it.deeptelegram.ui.Components.RecordStatusDrawable;
+import it.deeptelegram.ui.Components.SizeNotifierFrameLayout;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.TypingDotsDrawable;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -33,8 +33,8 @@ import it.deeptelegram.messenger.support.customtabs.CustomTabsSession;
 import it.deeptelegram.messenger.support.customtabsclient.shared.CustomTabsHelper;
 import it.deeptelegram.messenger.support.customtabsclient.shared.ServiceConnection;
 import it.deeptelegram.messenger.support.customtabsclient.shared.ServiceConnectionCallback;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.LaunchActivity;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.LaunchActivity;
 
 import java.lang.ref.WeakReference;
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.animation.ObjectAnimator;
 import android.content.Context;
@@ -20,7 +20,7 @@ import android.view.View;
 
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class RadioButton extends View {
 

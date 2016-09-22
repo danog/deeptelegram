@@ -19,8 +19,8 @@ import android.text.format.DateFormat;
 import android.util.Xml;
 
 import it.deeptelegram.messenger.time.FastDateFormat;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.io.File;

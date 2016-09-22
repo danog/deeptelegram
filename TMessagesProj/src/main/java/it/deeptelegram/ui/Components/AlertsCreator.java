@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -23,13 +23,13 @@ import it.deeptelegram.messenger.NotificationsController;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.Utilities;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.ReportOtherActivity;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.BottomSheet;
+import it.deeptelegram.ui.ReportOtherActivity;
 
 public class AlertsCreator {
 

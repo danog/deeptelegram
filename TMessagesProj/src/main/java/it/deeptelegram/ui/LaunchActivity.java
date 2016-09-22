@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -44,7 +44,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
 import it.deeptelegram.messenger.ChatObject;
 import it.deeptelegram.messenger.ContactsController;
 import it.deeptelegram.messenger.ImageLoader;
@@ -62,19 +62,19 @@ import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.browser.Browser;
 import it.deeptelegram.messenger.query.DraftQuery;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.ui.Adapters.DrawerLayoutAdapter;
-import org.telegram.ui.ActionBar.ActionBarLayout;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.DrawerLayoutContainer;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.PasscodeView;
-import org.telegram.ui.Components.StickersAlert;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Adapters.DrawerLayoutAdapter;
+import it.deeptelegram.ui.ActionBar.ActionBarLayout;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.DrawerLayoutContainer;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.PasscodeView;
+import it.deeptelegram.ui.Components.StickersAlert;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

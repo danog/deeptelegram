@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -35,8 +35,8 @@ import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.browser.Browser;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.BottomSheet;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 import java.util.HashMap;
 import java.util.regex.Matcher;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.graphics.Path;
 import android.text.StaticLayout;

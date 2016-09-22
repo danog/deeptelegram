@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -40,8 +40,8 @@ import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.Utilities;
 import it.deeptelegram.messenger.AnimatorListenerAdapterProxy;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Cells.PhotoEditToolCell;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Cells.PhotoEditToolCell;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -34,10 +34,10 @@ import it.deeptelegram.messenger.MediaController;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.Utilities;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.LetterDrawable;
-import org.telegram.ui.Components.RadialProgress;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.LetterDrawable;
+import it.deeptelegram.ui.Components.RadialProgress;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 import java.io.File;
 import java.util.ArrayList;

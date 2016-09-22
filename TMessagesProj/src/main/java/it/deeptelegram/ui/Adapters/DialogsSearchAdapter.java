@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -14,8 +14,8 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 
-import org.telegram.SQLite.SQLiteCursor;
-import org.telegram.SQLite.SQLitePreparedStatement;
+import it.deeptelegram.SQLite.SQLiteCursor;
+import it.deeptelegram.SQLite.SQLitePreparedStatement;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ChatObject;
 import it.deeptelegram.messenger.ContactsController;
@@ -28,18 +28,18 @@ import it.deeptelegram.messenger.support.widget.LinearLayoutManager;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Cells.DialogCell;
-import org.telegram.ui.Cells.GreySectionCell;
-import org.telegram.ui.Cells.HashtagSearchCell;
-import org.telegram.ui.Cells.HintDialogCell;
-import org.telegram.ui.Cells.LoadingCell;
-import org.telegram.ui.Cells.ProfileSearchCell;
-import org.telegram.ui.Components.RecyclerListView;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Cells.DialogCell;
+import it.deeptelegram.ui.Cells.GreySectionCell;
+import it.deeptelegram.ui.Cells.HashtagSearchCell;
+import it.deeptelegram.ui.Cells.HintDialogCell;
+import it.deeptelegram.ui.Cells.LoadingCell;
+import it.deeptelegram.ui.Cells.ProfileSearchCell;
+import it.deeptelegram.ui.Components.RecyclerListView;
 
 import java.util.ArrayList;
 import java.util.Collections;

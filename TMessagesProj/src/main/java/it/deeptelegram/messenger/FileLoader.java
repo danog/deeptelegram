@@ -8,8 +8,8 @@
 
 package it.deeptelegram.messenger;
 
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.io.File;
 import java.util.ArrayList;

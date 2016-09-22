@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -28,12 +28,12 @@ import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.ui.ActionBar.ActionBarLayout;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.DrawerLayoutContainer;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.ui.ActionBar.ActionBarLayout;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.DrawerLayoutContainer;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 import java.util.ArrayList;
 

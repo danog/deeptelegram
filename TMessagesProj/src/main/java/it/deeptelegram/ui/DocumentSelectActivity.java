@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -34,15 +34,15 @@ import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.BackDrawable;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Adapters.BaseFragmentAdapter;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Cells.SharedDocumentCell;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.NumberTextView;
+import it.deeptelegram.ui.ActionBar.BackDrawable;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Adapters.BaseFragmentAdapter;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Cells.SharedDocumentCell;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.NumberTextView;
 
 import java.io.BufferedReader;
 import java.io.File;

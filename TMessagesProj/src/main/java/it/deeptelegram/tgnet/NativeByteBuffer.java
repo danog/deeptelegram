@@ -1,4 +1,4 @@
-package org.telegram.tgnet;
+package it.deeptelegram.tgnet;
 
 import it.deeptelegram.messenger.FileLog;
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.database.DataSetObserver;
 import android.view.View;

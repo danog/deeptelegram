@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -21,7 +21,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 
 public class ScrollSlidingTabStrip extends HorizontalScrollView {
 

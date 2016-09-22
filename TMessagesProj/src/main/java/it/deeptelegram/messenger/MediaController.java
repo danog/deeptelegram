@@ -56,10 +56,10 @@ import it.deeptelegram.messenger.video.InputSurface;
 import it.deeptelegram.messenger.video.MP4Builder;
 import it.deeptelegram.messenger.video.Mp4Movie;
 import it.deeptelegram.messenger.video.OutputSurface;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ChatActivity;
-import org.telegram.ui.PhotoViewer;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ChatActivity;
+import it.deeptelegram.ui.PhotoViewer;
 
 import java.io.File;
 import java.io.FileInputStream;

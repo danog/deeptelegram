@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -39,18 +39,18 @@ import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Cells.ShadowSectionCell;
-import org.telegram.ui.Cells.TextCheckCell;
-import org.telegram.ui.Cells.TextInfoPrivacyCell;
-import org.telegram.ui.Cells.TextSettingsCell;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Components.AvatarUpdater;
-import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Cells.ShadowSectionCell;
+import it.deeptelegram.ui.Cells.TextCheckCell;
+import it.deeptelegram.ui.Cells.TextInfoPrivacyCell;
+import it.deeptelegram.ui.Cells.TextSettingsCell;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.Components.AvatarUpdater;
+import it.deeptelegram.ui.Components.BackupImageView;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 import java.util.concurrent.Semaphore;
 

@@ -12,8 +12,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Base64;
 
-import org.telegram.tgnet.SerializedData;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.SerializedData;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.io.File;
 

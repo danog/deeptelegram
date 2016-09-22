@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -26,12 +26,12 @@ import android.widget.FrameLayout;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ImageReceiver;
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Cells.ContextLinkCell;
-import org.telegram.ui.Cells.StickerCell;
-import org.telegram.ui.Cells.StickerEmojiCell;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.RecyclerListView;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Cells.ContextLinkCell;
+import it.deeptelegram.ui.Cells.StickerCell;
+import it.deeptelegram.ui.Cells.StickerEmojiCell;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.RecyclerListView;
 
 public class StickerPreviewViewer {
 

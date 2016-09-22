@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.animation.ObjectAnimator;
 import android.animation.StateListAnimator;
@@ -31,8 +31,8 @@ import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.BuildVars;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class IntroActivity extends Activity {
 

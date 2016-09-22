@@ -36,12 +36,12 @@ import android.os.SystemClock;
 import android.service.media.MediaBrowserService;
 import android.text.TextUtils;
 
-import org.telegram.SQLite.SQLiteCursor;
+import it.deeptelegram.SQLite.SQLiteCursor;
 import it.deeptelegram.messenger.audioinfo.AudioInfo;
 import it.deeptelegram.messenger.query.SharedMediaQuery;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.LaunchActivity;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.LaunchActivity;
 
 import java.io.File;
 import java.lang.ref.WeakReference;

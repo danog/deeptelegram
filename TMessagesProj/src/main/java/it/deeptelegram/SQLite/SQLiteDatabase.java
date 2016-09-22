@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.SQLite;
+package it.deeptelegram.SQLite;
 
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.ApplicationLoader;

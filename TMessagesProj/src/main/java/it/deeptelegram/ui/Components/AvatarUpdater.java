@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.Manifest;
 import android.app.Activity;
@@ -22,16 +22,16 @@ import android.provider.MediaStore;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ImageLoader;
 import it.deeptelegram.messenger.MediaController;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.FileLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.ui.LaunchActivity;
-import org.telegram.ui.PhotoAlbumPickerActivity;
-import org.telegram.ui.PhotoCropActivity;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.PhotoViewer;
+import it.deeptelegram.ui.LaunchActivity;
+import it.deeptelegram.ui.PhotoAlbumPickerActivity;
+import it.deeptelegram.ui.PhotoCropActivity;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.PhotoViewer;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.view.View;

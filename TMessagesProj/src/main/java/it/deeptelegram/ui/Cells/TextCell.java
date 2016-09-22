@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -16,7 +16,7 @@ import android.widget.ImageView;
 
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
-import org.telegram.ui.ActionBar.SimpleTextView;
+import it.deeptelegram.ui.ActionBar.SimpleTextView;
 
 public class TextCell extends FrameLayout {
 

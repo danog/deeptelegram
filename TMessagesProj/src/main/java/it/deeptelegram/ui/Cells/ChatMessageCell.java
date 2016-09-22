@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -31,7 +31,7 @@ import android.view.MotionEvent;
 import android.view.SoundEffectConstants;
 import android.view.ViewStructure;
 
-import org.telegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ContactsController;
 import it.deeptelegram.messenger.Emoji;
@@ -48,19 +48,19 @@ import it.deeptelegram.messenger.SendMessagesHelper;
 import it.deeptelegram.messenger.UserObject;
 import it.deeptelegram.messenger.Utilities;
 import it.deeptelegram.messenger.browser.Browser;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Components.LinkPath;
-import org.telegram.ui.Components.RadialProgress;
-import org.telegram.ui.Components.SeekBar;
-import org.telegram.ui.Components.SeekBarWaveform;
-import org.telegram.ui.Components.StaticLayoutEx;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.TypefaceSpan;
-import org.telegram.ui.Components.URLSpanBotCommand;
-import org.telegram.ui.Components.URLSpanNoUnderline;
-import org.telegram.ui.PhotoViewer;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.Components.LinkPath;
+import it.deeptelegram.ui.Components.RadialProgress;
+import it.deeptelegram.ui.Components.SeekBar;
+import it.deeptelegram.ui.Components.SeekBarWaveform;
+import it.deeptelegram.ui.Components.StaticLayoutEx;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.TypefaceSpan;
+import it.deeptelegram.ui.Components.URLSpanBotCommand;
+import it.deeptelegram.ui.Components.URLSpanNoUnderline;
+import it.deeptelegram.ui.PhotoViewer;
 
 import java.io.File;
 import java.util.ArrayList;

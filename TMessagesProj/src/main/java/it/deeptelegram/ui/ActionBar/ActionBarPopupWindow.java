@@ -8,7 +8,7 @@
 
 //Thanks to https://github.com/JakeWharton/ActionBarSherlock/
 
-package org.telegram.ui.ActionBar;
+package it.deeptelegram.ui.ActionBar;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -30,7 +30,7 @@ import android.widget.ScrollView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 import java.lang.reflect.Field;
 import java.util.HashMap;

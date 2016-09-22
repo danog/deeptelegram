@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
@@ -16,7 +16,7 @@ import android.graphics.drawable.Drawable;
 import android.view.animation.DecelerateInterpolator;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class SendingFileDrawable extends Drawable {
 

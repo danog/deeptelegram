@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.tgnet;
+package it.deeptelegram.tgnet;
 
 import java.util.ArrayList;
 import java.util.HashMap;

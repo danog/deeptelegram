@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.ActionBar;
+package it.deeptelegram.ui.ActionBar;
 
 import android.animation.AnimatorSet;
 import android.app.Activity;
@@ -19,7 +19,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.ConnectionsManager;
 
 public class BaseFragment {
 

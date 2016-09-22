@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -15,8 +15,8 @@ import android.view.ViewGroup;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.Utilities;
-import org.telegram.ui.Adapters.CountryAdapter.Country;
-import org.telegram.ui.Cells.TextSettingsCell;
+import it.deeptelegram.ui.Adapters.CountryAdapter.Country;
+import it.deeptelegram.ui.Cells.TextSettingsCell;
 
 import java.util.ArrayList;
 import java.util.HashMap;

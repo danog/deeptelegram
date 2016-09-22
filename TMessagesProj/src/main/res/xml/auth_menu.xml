@@ -7,6 +7,6 @@
         android:summary="">
         <intent android:action="it.deeptelegram.messenger.OPEN_ACCOUNT"
             android:targetPackage="it.deeptelegram.messenger"
-            android:targetClass="org.telegram.ui.LaunchActivity"/>
+            android:targetClass="it.deeptelegram.ui.LaunchActivity"/>
     </PreferenceScreen>
 </PreferenceScreen>

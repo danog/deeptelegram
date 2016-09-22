@@ -34,12 +34,12 @@ import android.support.v4.app.NotificationManagerCompat;
 import android.support.v4.app.RemoteInput;
 import android.util.SparseArray;
 
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.LaunchActivity;
-import org.telegram.ui.PopupNotificationActivity;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.LaunchActivity;
+import it.deeptelegram.ui.PopupNotificationActivity;
 
 import java.util.ArrayList;
 import java.util.Calendar;
@@ -653,7 +653,7 @@ public class NotificationsController {
                 lastBadgeCount = count;
                 try {
                     ContentValues cv = new ContentValues();
-                    cv.put("tag", "it.deeptelegram.messenger/org.telegram.ui.LaunchActivity");
+                    cv.put("tag", "it.deeptelegram.messenger/it.deeptelegram.ui.LaunchActivity");
                     cv.put("count", count);
                     ApplicationLoader.applicationContext.getContentResolver().insert(Uri.parse("content://com.teslacoilsw.notifier/unread_count"), cv);
                 } catch (Throwable e) {

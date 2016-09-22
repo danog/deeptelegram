@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -39,14 +39,14 @@ import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.query.StickersQuery;
 import it.deeptelegram.messenger.support.widget.GridLayoutManager;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Cells.StickerEmojiCell;
-import org.telegram.ui.StickerPreviewViewer;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.BottomSheet;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Cells.StickerEmojiCell;
+import it.deeptelegram.ui.StickerPreviewViewer;
 
 public class StickersAlert extends BottomSheet implements NotificationCenter.NotificationCenterDelegate {
 

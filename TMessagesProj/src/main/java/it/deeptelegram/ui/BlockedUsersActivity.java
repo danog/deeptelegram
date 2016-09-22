@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -23,19 +23,19 @@ import android.widget.ListView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.telegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
 import it.deeptelegram.messenger.LocaleController;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Adapters.BaseFragmentAdapter;
-import org.telegram.ui.Cells.TextInfoCell;
-import org.telegram.ui.Cells.UserCell;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Adapters.BaseFragmentAdapter;
+import it.deeptelegram.ui.Cells.TextInfoCell;
+import it.deeptelegram.ui.Cells.UserCell;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 public class BlockedUsersActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate, ContactsActivity.ContactsActivityDelegate {
 

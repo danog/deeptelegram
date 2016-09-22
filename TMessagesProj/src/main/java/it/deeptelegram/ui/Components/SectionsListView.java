@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -19,7 +19,7 @@ import android.widget.ListView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.ui.Adapters.BaseSectionsAdapter;
+import it.deeptelegram.ui.Adapters.BaseSectionsAdapter;
 
 public class SectionsListView extends ListView implements AbsListView.OnScrollListener {
 

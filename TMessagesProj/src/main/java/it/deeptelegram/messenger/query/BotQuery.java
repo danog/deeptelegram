@@ -8,14 +8,14 @@
 
 package it.deeptelegram.messenger.query;
 
-import org.telegram.SQLite.SQLiteCursor;
-import org.telegram.SQLite.SQLitePreparedStatement;
+import it.deeptelegram.SQLite.SQLiteCursor;
+import it.deeptelegram.SQLite.SQLitePreparedStatement;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -25,11 +25,11 @@ import android.provider.ContactsContract;
 import android.text.TextUtils;
 import android.util.SparseArray;
 
-import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -214,7 +214,7 @@ public class ContactsController {
         AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
         Account[] accounts;
         try {
-            accounts = am.getAccountsByType("org.telegram.account");
+            accounts = am.getAccountsByType("it.deeptelegram.account");
             if (accounts != null && accounts.length > 0) {
                 for (int a = 0; a < accounts.length; a++) {
                     am.removeAccount(accounts[a], null, null);
@@ -554,12 +554,12 @@ public class ContactsController {
                 /*if (schedule) {
                     try {
                         AccountManager am = AccountManager.get(ApplicationLoader.applicationContext);
-                        Account[] accounts = am.getAccountsByType("org.telegram.account");
+                        Account[] accounts = am.getAccountsByType("it.deeptelegram.account");
                         boolean recreateAccount = false;
                         if (UserConfig.isClientActivated()) {
                             if (accounts.length != 1) {
                                 FileLog.e("tmessages", "detected account deletion!");
-                                currentAccount = new Account(UserConfig.getCurrentUser().phone, "org.telegram.account");
+                                currentAccount = new Account(UserConfig.getCurrentUser().phone, "it.deeptelegram.account");
                                 am.addAccountExplicitly(currentAccount, "", null);
                                 AndroidUtilities.runOnUIThread(new Runnable() {
                                     @Override

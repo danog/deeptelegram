@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.graphics.Canvas;
 import android.graphics.ColorFilter;
@@ -22,9 +22,9 @@ import android.text.TextPaint;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.ApplicationLoader;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class AvatarDrawable extends Drawable {
 

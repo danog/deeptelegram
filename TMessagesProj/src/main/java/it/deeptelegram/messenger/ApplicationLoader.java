@@ -30,10 +30,10 @@ import android.util.Base64;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.SerializedData;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.ForegroundDetector;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.SerializedData;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.ForegroundDetector;
 
 import java.io.File;
 import java.io.RandomAccessFile;

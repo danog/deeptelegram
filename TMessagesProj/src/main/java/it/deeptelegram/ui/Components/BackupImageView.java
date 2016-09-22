@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -17,8 +17,8 @@ import android.util.AttributeSet;
 import android.view.View;
 
 import it.deeptelegram.messenger.ImageReceiver;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 
 public class BackupImageView extends View {
 

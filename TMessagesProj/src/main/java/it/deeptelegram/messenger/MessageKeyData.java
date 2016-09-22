@@ -8,7 +8,7 @@
 
 package it.deeptelegram.messenger;
 
-import org.telegram.tgnet.SerializedData;
+import it.deeptelegram.tgnet.SerializedData;
 
 public class MessageKeyData {
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -39,17 +39,17 @@ import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Adapters.BaseFragmentAdapter;
-import org.telegram.ui.Cells.TextColorCell;
-import org.telegram.ui.Cells.TextDetailSettingsCell;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Components.ColorPickerView;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.NumberPicker;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Adapters.BaseFragmentAdapter;
+import it.deeptelegram.ui.Cells.TextColorCell;
+import it.deeptelegram.ui.Cells.TextDetailSettingsCell;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.Components.ColorPickerView;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.NumberPicker;
 
 public class ProfileNotificationsActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
 

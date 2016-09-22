@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -20,7 +20,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class SlidingTabView extends LinearLayout {
 

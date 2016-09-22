@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.os.Build;
@@ -24,13 +24,13 @@ import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.SimpleTextView;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.ChatActivity;
-import org.telegram.ui.ProfileActivity;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.SimpleTextView;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ChatActivity;
+import it.deeptelegram.ui.ProfileActivity;
 
 public class ChatAvatarContainer extends FrameLayout {
 

@@ -8,8 +8,8 @@
 
 package it.deeptelegram.messenger;
 
-import org.telegram.PhoneFormat.PhoneFormat;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.tgnet.TLRPC;
 
 public class UserObject {
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -19,7 +19,7 @@ import android.text.TextPaint;
 import android.text.TextUtils;
 import android.view.MotionEvent;
 
-import org.telegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ChatObject;
 import it.deeptelegram.messenger.ImageReceiver;
@@ -27,12 +27,12 @@ import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.UserObject;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class ProfileSearchCell extends BaseCell {
 

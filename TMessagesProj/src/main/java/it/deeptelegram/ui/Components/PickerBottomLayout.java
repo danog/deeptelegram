@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -19,7 +19,7 @@ import android.widget.TextView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class PickerBottomLayout extends FrameLayout {
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.app.AlarmManager;
@@ -24,9 +24,9 @@ import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 
-import org.telegram.SQLite.SQLiteCursor;
-import org.telegram.SQLite.SQLiteDatabase;
-import org.telegram.SQLite.SQLitePreparedStatement;
+import it.deeptelegram.SQLite.SQLiteCursor;
+import it.deeptelegram.SQLite.SQLiteDatabase;
+import it.deeptelegram.SQLite.SQLitePreparedStatement;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.ClearCacheService;
@@ -38,16 +38,16 @@ import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.Utilities;
 import it.deeptelegram.messenger.query.BotQuery;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.Adapters.BaseFragmentAdapter;
-import org.telegram.ui.Cells.CheckBoxCell;
-import org.telegram.ui.Cells.TextInfoPrivacyCell;
-import org.telegram.ui.Cells.TextSettingsCell;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.BottomSheet;
+import it.deeptelegram.ui.Adapters.BaseFragmentAdapter;
+import it.deeptelegram.ui.Cells.CheckBoxCell;
+import it.deeptelegram.ui.Cells.TextInfoPrivacyCell;
+import it.deeptelegram.ui.Cells.TextSettingsCell;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 import java.io.File;
 import java.util.ArrayList;

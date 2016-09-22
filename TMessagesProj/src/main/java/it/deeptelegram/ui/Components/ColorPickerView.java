@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.graphics.Canvas;

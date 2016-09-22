@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -52,14 +52,14 @@ import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.support.widget.GridLayoutManager;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Cells.ContextLinkCell;
-import org.telegram.ui.Cells.EmptyCell;
-import org.telegram.ui.Cells.StickerEmojiCell;
-import org.telegram.ui.StickerPreviewViewer;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Cells.ContextLinkCell;
+import it.deeptelegram.ui.Cells.EmptyCell;
+import it.deeptelegram.ui.Cells.StickerEmojiCell;
+import it.deeptelegram.ui.StickerPreviewViewer;
 
 import java.lang.reflect.Field;
 import java.util.ArrayList;

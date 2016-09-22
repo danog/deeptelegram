@@ -11,11 +11,11 @@ package it.deeptelegram.messenger;
 import android.app.Activity;
 import android.content.SharedPreferences;
 
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.io.File;
 import java.io.FileInputStream;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -14,15 +14,15 @@ import android.view.ViewGroup;
 
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.ContactsController;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Cells.DividerCell;
-import org.telegram.ui.Cells.GreySectionCell;
-import org.telegram.ui.Cells.LetterSectionCell;
-import org.telegram.ui.Cells.TextCell;
-import org.telegram.ui.Cells.UserCell;
+import it.deeptelegram.ui.Cells.DividerCell;
+import it.deeptelegram.ui.Cells.GreySectionCell;
+import it.deeptelegram.ui.Cells.LetterSectionCell;
+import it.deeptelegram.ui.Cells.TextCell;
+import it.deeptelegram.ui.Cells.UserCell;
 
 import java.util.ArrayList;
 import java.util.HashMap;

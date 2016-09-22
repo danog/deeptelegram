@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -72,30 +72,30 @@ import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.support.widget.LinearLayoutManager;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.UserConfig;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.Utilities;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Adapters.MentionsAdapter;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Adapters.MentionsAdapter;
 import it.deeptelegram.messenger.AnimatorListenerAdapterProxy;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.ActionBarMenuItem;
-import org.telegram.ui.Components.AnimatedFileDrawable;
-import org.telegram.ui.Components.CheckBox;
-import org.telegram.ui.Components.ClippingImageView;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.ActionBarMenuItem;
+import it.deeptelegram.ui.Components.AnimatedFileDrawable;
+import it.deeptelegram.ui.Components.CheckBox;
+import it.deeptelegram.ui.Components.ClippingImageView;
 import it.deeptelegram.messenger.ImageReceiver;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.PhotoCropView;
-import org.telegram.ui.Components.PhotoFilterView;
-import org.telegram.ui.Components.PickerBottomLayout;
-import org.telegram.ui.Components.PhotoViewerCaptionEnterView;
-import org.telegram.ui.Components.RecyclerListView;
-import org.telegram.ui.Components.SeekBar;
-import org.telegram.ui.Components.SizeNotifierFrameLayoutPhoto;
-import org.telegram.ui.Components.VideoPlayer;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.PhotoCropView;
+import it.deeptelegram.ui.Components.PhotoFilterView;
+import it.deeptelegram.ui.Components.PickerBottomLayout;
+import it.deeptelegram.ui.Components.PhotoViewerCaptionEnterView;
+import it.deeptelegram.ui.Components.RecyclerListView;
+import it.deeptelegram.ui.Components.SeekBar;
+import it.deeptelegram.ui.Components.SizeNotifierFrameLayoutPhoto;
+import it.deeptelegram.ui.Components.VideoPlayer;
 
 import java.io.File;
 import java.util.ArrayList;

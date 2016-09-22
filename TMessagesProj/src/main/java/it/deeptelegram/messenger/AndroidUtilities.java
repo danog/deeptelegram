@@ -63,12 +63,12 @@ import net.hockeyapp.android.CrashManager;
 import net.hockeyapp.android.CrashManagerListener;
 import net.hockeyapp.android.UpdateManager;
 
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.ForegroundDetector;
-import org.telegram.ui.Components.NumberPicker;
-import org.telegram.ui.Components.TypefaceSpan;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.ForegroundDetector;
+import it.deeptelegram.ui.Components.NumberPicker;
+import it.deeptelegram.ui.Components.TypefaceSpan;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

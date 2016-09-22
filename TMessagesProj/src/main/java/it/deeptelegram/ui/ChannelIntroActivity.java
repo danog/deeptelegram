@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -21,9 +21,9 @@ import android.widget.TextView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 public class ChannelIntroActivity extends BaseFragment {
 

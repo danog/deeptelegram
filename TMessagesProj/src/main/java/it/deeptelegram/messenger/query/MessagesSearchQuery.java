@@ -13,10 +13,10 @@ import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.NotificationCenter;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.util.ArrayList;
 

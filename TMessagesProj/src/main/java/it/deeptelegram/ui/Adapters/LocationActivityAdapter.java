@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.content.Context;
 import android.location.Location;
@@ -15,13 +15,13 @@ import android.view.ViewGroup;
 
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Cells.EmptyCell;
-import org.telegram.ui.Cells.GreySectionCell;
-import org.telegram.ui.Cells.LocationCell;
-import org.telegram.ui.Cells.LocationLoadingCell;
-import org.telegram.ui.Cells.LocationPoweredCell;
-import org.telegram.ui.Cells.SendLocationCell;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Cells.EmptyCell;
+import it.deeptelegram.ui.Cells.GreySectionCell;
+import it.deeptelegram.ui.Cells.LocationCell;
+import it.deeptelegram.ui.Cells.LocationLoadingCell;
+import it.deeptelegram.ui.Cells.LocationPoweredCell;
+import it.deeptelegram.ui.Cells.SendLocationCell;
 
 import java.util.Locale;
 

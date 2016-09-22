@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -32,12 +32,12 @@ import it.deeptelegram.messenger.FileLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.browser.Browser;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.CheckBox;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.LetterDrawable;
-import org.telegram.ui.Components.LinkPath;
-import org.telegram.ui.ActionBar.Theme;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.CheckBox;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LetterDrawable;
+import it.deeptelegram.ui.Components.LinkPath;
+import it.deeptelegram.ui.ActionBar.Theme;
 
 import java.io.File;
 import java.util.ArrayList;

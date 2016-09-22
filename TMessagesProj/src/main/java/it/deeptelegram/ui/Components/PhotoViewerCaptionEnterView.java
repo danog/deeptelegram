@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.animation.AnimatorSet;
 import android.animation.ObjectAnimator;
@@ -36,7 +36,7 @@ import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;

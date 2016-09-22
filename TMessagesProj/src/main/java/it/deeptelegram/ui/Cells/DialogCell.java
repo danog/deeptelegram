@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -23,22 +23,22 @@ import android.text.style.ForegroundColorSpan;
 import android.view.MotionEvent;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.PhoneFormat.PhoneFormat;
+import it.deeptelegram.PhoneFormat.PhoneFormat;
 import it.deeptelegram.messenger.ChatObject;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.UserObject;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.query.DraftQuery;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.ContactsController;
 import it.deeptelegram.messenger.Emoji;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.UserConfig;
 import it.deeptelegram.messenger.ImageReceiver;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.AvatarDrawable;
 
 import java.util.ArrayList;
 

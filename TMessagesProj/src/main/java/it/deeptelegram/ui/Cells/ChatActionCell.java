@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -27,11 +27,11 @@ import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.FileLoader;
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.PhotoViewer;
-import org.telegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.PhotoViewer;
+import it.deeptelegram.ui.Components.AvatarDrawable;
 
 public class ChatActionCell extends BaseCell {
 

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 import android.widget.ProgressBar;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 public class LoadingCell extends FrameLayout {
 

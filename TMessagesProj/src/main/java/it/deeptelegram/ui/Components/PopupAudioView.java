@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -24,9 +24,9 @@ import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.FileLoader;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.MessageObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Cells.BaseCell;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Cells.BaseCell;
 
 import java.io.File;
 

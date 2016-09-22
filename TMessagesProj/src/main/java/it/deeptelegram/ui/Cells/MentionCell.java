@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.os.Build;
@@ -21,10 +21,10 @@ import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.Emoji;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.UserObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.Components.BackupImageView;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 public class MentionCell extends LinearLayout {
 

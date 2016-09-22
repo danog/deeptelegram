@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.Manifest;
 import android.animation.AnimatorSet;
@@ -57,22 +57,22 @@ import it.deeptelegram.messenger.UserObject;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.LocaleController;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.ActionBarMenuItem;
-import org.telegram.ui.Adapters.BaseLocationAdapter;
-import org.telegram.ui.Adapters.LocationActivityAdapter;
-import org.telegram.ui.Adapters.LocationActivitySearchAdapter;
-import org.telegram.ui.Components.AvatarDrawable;
-import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.MapPlaceholderDrawable;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.ActionBarMenuItem;
+import it.deeptelegram.ui.Adapters.BaseLocationAdapter;
+import it.deeptelegram.ui.Adapters.LocationActivityAdapter;
+import it.deeptelegram.ui.Adapters.LocationActivitySearchAdapter;
+import it.deeptelegram.ui.Components.AvatarDrawable;
+import it.deeptelegram.ui.Components.BackupImageView;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.MapPlaceholderDrawable;
 
 import java.util.ArrayList;
 import java.util.List;

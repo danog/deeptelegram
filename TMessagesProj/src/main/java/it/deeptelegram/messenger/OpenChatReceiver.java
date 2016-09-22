@@ -12,7 +12,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 
-import org.telegram.ui.LaunchActivity;
+import it.deeptelegram.ui.LaunchActivity;
 
 public class OpenChatReceiver extends Activity {
 

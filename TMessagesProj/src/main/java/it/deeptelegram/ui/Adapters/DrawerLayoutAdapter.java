@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -18,10 +18,10 @@ import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.ui.Cells.DrawerActionCell;
-import org.telegram.ui.Cells.DividerCell;
-import org.telegram.ui.Cells.EmptyCell;
-import org.telegram.ui.Cells.DrawerProfileCell;
+import it.deeptelegram.ui.Cells.DrawerActionCell;
+import it.deeptelegram.ui.Cells.DividerCell;
+import it.deeptelegram.ui.Cells.EmptyCell;
+import it.deeptelegram.ui.Cells.DrawerProfileCell;
 
 public class DrawerLayoutAdapter extends BaseAdapter {
 

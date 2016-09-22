@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.SQLite;
+package it.deeptelegram.SQLite;
 
 public class SQLiteNoRowException extends Exception {
 	private static final long serialVersionUID = 4098095358028103112L;

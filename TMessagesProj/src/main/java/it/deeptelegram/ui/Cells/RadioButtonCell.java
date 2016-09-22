@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -19,8 +19,8 @@ import android.widget.TextView;
 
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.RadioButton;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.RadioButton;
 
 public class RadioButtonCell extends FrameLayout {
 

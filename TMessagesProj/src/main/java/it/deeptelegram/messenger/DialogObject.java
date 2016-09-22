@@ -8,7 +8,7 @@
 
 package it.deeptelegram.messenger;
 
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 
 public class DialogObject {
 

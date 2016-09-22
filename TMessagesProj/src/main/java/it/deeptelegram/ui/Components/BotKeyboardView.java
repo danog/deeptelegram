@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.content.Context;
 import android.util.TypedValue;
@@ -19,7 +19,7 @@ import android.widget.TextView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.Emoji;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.util.ArrayList;
 

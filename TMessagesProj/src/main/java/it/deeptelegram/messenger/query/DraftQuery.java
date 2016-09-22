@@ -12,7 +12,7 @@ import android.app.Activity;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
-import org.telegram.SQLite.SQLiteCursor;
+import it.deeptelegram.SQLite.SQLiteCursor;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.ChatObject;
@@ -22,12 +22,12 @@ import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.UserConfig;
 import it.deeptelegram.messenger.Utilities;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.SerializedData;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.SerializedData;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.util.ArrayList;
 import java.util.HashMap;

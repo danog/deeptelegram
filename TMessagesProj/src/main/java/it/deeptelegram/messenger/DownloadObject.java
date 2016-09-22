@@ -8,7 +8,7 @@
 
 package it.deeptelegram.messenger;
 
-import org.telegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLObject;
 
 public class DownloadObject {
     public TLObject object;

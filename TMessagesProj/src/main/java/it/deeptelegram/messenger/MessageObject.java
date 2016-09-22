@@ -20,16 +20,16 @@ import android.text.TextUtils;
 import android.text.style.URLSpan;
 import android.text.util.Linkify;
 
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.TypefaceSpan;
-import org.telegram.ui.Components.URLSpanBotCommand;
-import org.telegram.ui.Components.URLSpanNoUnderline;
-import org.telegram.ui.Components.URLSpanNoUnderlineBold;
-import org.telegram.ui.Components.URLSpanReplacement;
-import org.telegram.ui.Components.URLSpanUserMention;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.TypefaceSpan;
+import it.deeptelegram.ui.Components.URLSpanBotCommand;
+import it.deeptelegram.ui.Components.URLSpanNoUnderline;
+import it.deeptelegram.ui.Components.URLSpanNoUnderlineBold;
+import it.deeptelegram.ui.Components.URLSpanReplacement;
+import it.deeptelegram.ui.Components.URLSpanUserMention;
 
 import java.io.File;
 import java.util.AbstractMap;

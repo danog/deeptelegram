@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.location.Location;
 
@@ -22,7 +22,7 @@ import it.deeptelegram.messenger.volley.toolbox.Volley;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.BuildVars;
 import it.deeptelegram.messenger.FileLog;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 
 import java.net.URLEncoder;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -68,16 +68,16 @@ import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.query.DraftQuery;
 import it.deeptelegram.messenger.query.MessagesQuery;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.UserConfig;
-import org.telegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBar;
 import it.deeptelegram.messenger.AnimatorListenerAdapterProxy;
 import it.deeptelegram.messenger.ApplicationLoader;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.ChatActivity;
-import org.telegram.ui.DialogsActivity;
-import org.telegram.ui.StickersActivity;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.ChatActivity;
+import it.deeptelegram.ui.DialogsActivity;
+import it.deeptelegram.ui.StickersActivity;
 
 import java.io.File;
 import java.lang.reflect.Field;

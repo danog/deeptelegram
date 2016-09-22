@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -29,10 +29,10 @@ import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.browser.Browser;
-import org.telegram.ui.Components.LinkPath;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.TypefaceSpan;
-import org.telegram.ui.Components.URLSpanNoUnderline;
+import it.deeptelegram.ui.Components.LinkPath;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.TypefaceSpan;
+import it.deeptelegram.ui.Components.URLSpanNoUnderline;
 
 public class BotHelpCell extends View {
 

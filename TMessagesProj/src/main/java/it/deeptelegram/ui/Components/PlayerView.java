@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -30,9 +30,9 @@ import it.deeptelegram.messenger.MediaController;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.AudioPlayerActivity;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.AudioPlayerActivity;
 
 public class PlayerView extends FrameLayout implements NotificationCenter.NotificationCenterDelegate {
 

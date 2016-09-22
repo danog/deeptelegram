@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.content.Context;
 import android.view.View;
@@ -15,9 +15,9 @@ import android.view.ViewGroup;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Cells.DialogCell;
-import org.telegram.ui.Cells.LoadingCell;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Cells.DialogCell;
+import it.deeptelegram.ui.Cells.LoadingCell;
 
 import java.util.ArrayList;
 

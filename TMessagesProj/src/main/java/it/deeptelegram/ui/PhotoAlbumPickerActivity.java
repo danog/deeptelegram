@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.content.Context;
@@ -33,16 +33,16 @@ import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.ActionBarMenuItem;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Adapters.BaseFragmentAdapter;
-import org.telegram.ui.Cells.PhotoPickerAlbumsCell;
-import org.telegram.ui.Cells.PhotoPickerSearchCell;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.PickerBottomLayout;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.ActionBarMenuItem;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Adapters.BaseFragmentAdapter;
+import it.deeptelegram.ui.Cells.PhotoPickerAlbumsCell;
+import it.deeptelegram.ui.Cells.PhotoPickerSearchCell;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.PickerBottomLayout;
 
 import java.util.ArrayList;
 import java.util.HashMap;

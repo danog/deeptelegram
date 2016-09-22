@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.Manifest;
 import android.animation.Animator;
@@ -53,14 +53,14 @@ import it.deeptelegram.messenger.query.SearchQuery;
 import it.deeptelegram.messenger.support.widget.LinearLayoutManager;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Cells.PhotoAttachCameraCell;
-import org.telegram.ui.Cells.PhotoAttachPhotoCell;
-import org.telegram.ui.Cells.ShadowSectionCell;
-import org.telegram.ui.ChatActivity;
-import org.telegram.ui.PhotoViewer;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.BottomSheet;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Cells.PhotoAttachCameraCell;
+import it.deeptelegram.ui.Cells.PhotoAttachPhotoCell;
+import it.deeptelegram.ui.Cells.ShadowSectionCell;
+import it.deeptelegram.ui.ChatActivity;
+import it.deeptelegram.ui.PhotoViewer;
 
 import java.io.File;
 import java.util.ArrayList;

@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -46,13 +46,13 @@ import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.VideoSeekBarView;
-import org.telegram.ui.Components.VideoTimelineView;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.VideoSeekBarView;
+import it.deeptelegram.ui.Components.VideoTimelineView;
 
 import java.io.File;
 import java.util.List;

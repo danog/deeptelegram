@@ -1,4 +1,4 @@
-package org.telegram.tgnet;
+package it.deeptelegram.tgnet;
 
 public abstract class AbstractSerializedData {
 

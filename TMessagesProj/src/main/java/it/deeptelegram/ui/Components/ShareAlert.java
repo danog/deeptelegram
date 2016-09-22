@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Components;
+package it.deeptelegram.ui.Components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -30,7 +30,7 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.telegram.SQLite.SQLiteCursor;
+import it.deeptelegram.SQLite.SQLiteCursor;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.ApplicationLoader;
 import it.deeptelegram.messenger.ChatObject;
@@ -43,14 +43,14 @@ import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.SendMessagesHelper;
 import it.deeptelegram.messenger.support.widget.GridLayoutManager;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.NativeByteBuffer;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.BottomSheet;
-import org.telegram.ui.ActionBar.Theme;
-import org.telegram.ui.Cells.ShareDialogCell;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.NativeByteBuffer;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.BottomSheet;
+import it.deeptelegram.ui.ActionBar.Theme;
+import it.deeptelegram.ui.Cells.ShareDialogCell;
 
 import java.util.ArrayList;
 import java.util.Collections;

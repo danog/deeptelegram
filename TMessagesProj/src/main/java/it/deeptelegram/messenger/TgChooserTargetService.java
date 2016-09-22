@@ -28,9 +28,9 @@ import android.service.chooser.ChooserTarget;
 import android.service.chooser.ChooserTargetService;
 import android.text.TextUtils;
 
-import org.telegram.SQLite.SQLiteCursor;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.LaunchActivity;
+import it.deeptelegram.SQLite.SQLiteCursor;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.LaunchActivity;
 
 import java.io.File;
 import java.util.ArrayList;

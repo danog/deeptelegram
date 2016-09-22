@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -33,23 +33,23 @@ import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.NotificationsController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.ApplicationLoader;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Adapters.BaseFragmentAdapter;
-import org.telegram.ui.Cells.HeaderCell;
-import org.telegram.ui.Cells.ShadowSectionCell;
-import org.telegram.ui.Cells.TextCheckCell;
-import org.telegram.ui.Cells.TextColorCell;
-import org.telegram.ui.Cells.TextDetailSettingsCell;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.ColorPickerView;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Adapters.BaseFragmentAdapter;
+import it.deeptelegram.ui.Cells.HeaderCell;
+import it.deeptelegram.ui.Cells.ShadowSectionCell;
+import it.deeptelegram.ui.Cells.TextCheckCell;
+import it.deeptelegram.ui.Cells.TextColorCell;
+import it.deeptelegram.ui.Cells.TextDetailSettingsCell;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.ColorPickerView;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 public class NotificationsSettingsActivity extends BaseFragment implements NotificationCenter.NotificationCenterDelegate {
 

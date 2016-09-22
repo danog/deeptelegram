@@ -25,10 +25,10 @@ import android.os.Build;
 import android.os.Environment;
 import android.provider.MediaStore;
 
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.AnimatedFileDrawable;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.AnimatedFileDrawable;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;

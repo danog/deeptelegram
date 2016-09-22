@@ -25,15 +25,15 @@ import android.view.View;
 import android.widget.RemoteViews;
 
 import it.deeptelegram.messenger.audioinfo.AudioInfo;
-import org.telegram.ui.LaunchActivity;
+import it.deeptelegram.ui.LaunchActivity;
 
 public class MusicPlayerService extends Service implements NotificationCenter.NotificationCenterDelegate {
 
-    public static final String NOTIFY_PREVIOUS = "org.telegram.android.musicplayer.previous";
-    public static final String NOTIFY_CLOSE = "org.telegram.android.musicplayer.close";
-    public static final String NOTIFY_PAUSE = "org.telegram.android.musicplayer.pause";
-    public static final String NOTIFY_PLAY = "org.telegram.android.musicplayer.play";
-    public static final String NOTIFY_NEXT = "org.telegram.android.musicplayer.next";
+    public static final String NOTIFY_PREVIOUS = "it.deeptelegram.android.musicplayer.previous";
+    public static final String NOTIFY_CLOSE = "it.deeptelegram.android.musicplayer.close";
+    public static final String NOTIFY_PAUSE = "it.deeptelegram.android.musicplayer.pause";
+    public static final String NOTIFY_PLAY = "it.deeptelegram.android.musicplayer.play";
+    public static final String NOTIFY_NEXT = "it.deeptelegram.android.musicplayer.next";
 
     private RemoteControlClient remoteControlClient;
     private AudioManager audioManager;

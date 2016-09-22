@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -41,23 +41,23 @@ import it.deeptelegram.messenger.MessagesStorage;
 import it.deeptelegram.messenger.SecretChatHelper;
 import it.deeptelegram.messenger.UserConfig;
 import it.deeptelegram.messenger.UserObject;
-import org.telegram.tgnet.TLRPC;
+import it.deeptelegram.tgnet.TLRPC;
 import it.deeptelegram.messenger.ContactsController;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.MessagesController;
 import it.deeptelegram.messenger.NotificationCenter;
 import it.deeptelegram.messenger.R;
 import it.deeptelegram.messenger.Utilities;
-import org.telegram.ui.Adapters.BaseSectionsAdapter;
-import org.telegram.ui.Adapters.ContactsAdapter;
-import org.telegram.ui.Adapters.SearchAdapter;
-import org.telegram.ui.Cells.UserCell;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.ActionBarMenuItem;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.LetterSectionsListView;
+import it.deeptelegram.ui.Adapters.BaseSectionsAdapter;
+import it.deeptelegram.ui.Adapters.ContactsAdapter;
+import it.deeptelegram.ui.Adapters.SearchAdapter;
+import it.deeptelegram.ui.Cells.UserCell;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.ActionBarMenuItem;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LetterSectionsListView;
 
 import java.util.ArrayList;
 import java.util.HashMap;

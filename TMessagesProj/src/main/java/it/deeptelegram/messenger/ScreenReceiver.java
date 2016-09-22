@@ -12,7 +12,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import org.telegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.ConnectionsManager;
 
 public class ScreenReceiver extends BroadcastReceiver {
 

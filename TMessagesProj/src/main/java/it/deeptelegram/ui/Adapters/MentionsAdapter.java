@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Adapters;
+package it.deeptelegram.ui.Adapters;
 
 import android.Manifest;
 import android.app.Activity;
@@ -31,14 +31,14 @@ import it.deeptelegram.messenger.SendMessagesHelper;
 import it.deeptelegram.messenger.UserObject;
 import it.deeptelegram.messenger.query.SearchQuery;
 import it.deeptelegram.messenger.support.widget.RecyclerView;
-import org.telegram.tgnet.ConnectionsManager;
-import org.telegram.tgnet.RequestDelegate;
-import org.telegram.tgnet.TLObject;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Cells.BotSwitchCell;
-import org.telegram.ui.Cells.ContextLinkCell;
-import org.telegram.ui.Cells.MentionCell;
+import it.deeptelegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.RequestDelegate;
+import it.deeptelegram.tgnet.TLObject;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Cells.BotSwitchCell;
+import it.deeptelegram.ui.Cells.ContextLinkCell;
+import it.deeptelegram.ui.Cells.MentionCell;
 
 import java.util.ArrayList;
 import java.util.Collections;

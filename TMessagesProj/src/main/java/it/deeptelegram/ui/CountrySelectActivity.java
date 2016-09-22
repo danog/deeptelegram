@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui;
+package it.deeptelegram.ui;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -23,15 +23,15 @@ import android.widget.TextView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Adapters.CountryAdapter;
-import org.telegram.ui.Adapters.CountryAdapter.Country;
-import org.telegram.ui.Adapters.CountrySearchAdapter;
-import org.telegram.ui.ActionBar.ActionBar;
-import org.telegram.ui.ActionBar.ActionBarMenu;
-import org.telegram.ui.ActionBar.ActionBarMenuItem;
-import org.telegram.ui.ActionBar.BaseFragment;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.LetterSectionsListView;
+import it.deeptelegram.ui.Adapters.CountryAdapter;
+import it.deeptelegram.ui.Adapters.CountryAdapter.Country;
+import it.deeptelegram.ui.Adapters.CountrySearchAdapter;
+import it.deeptelegram.ui.ActionBar.ActionBar;
+import it.deeptelegram.ui.ActionBar.ActionBarMenu;
+import it.deeptelegram.ui.ActionBar.ActionBarMenuItem;
+import it.deeptelegram.ui.ActionBar.BaseFragment;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LetterSectionsListView;
 
 public class CountrySelectActivity extends BaseFragment {
 

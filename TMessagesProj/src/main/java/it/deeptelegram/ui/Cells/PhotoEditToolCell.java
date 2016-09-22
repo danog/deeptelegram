@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.text.TextUtils;
@@ -17,7 +17,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import it.deeptelegram.messenger.AndroidUtilities;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 public class PhotoEditToolCell extends FrameLayout {
 

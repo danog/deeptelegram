@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -27,11 +27,11 @@ import it.deeptelegram.messenger.MediaController;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.FileLoader;
 import it.deeptelegram.messenger.R;
-import org.telegram.tgnet.TLRPC;
-import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.Components.CheckBox;
-import org.telegram.ui.Components.LayoutHelper;
-import org.telegram.ui.Components.LineProgressView;
+import it.deeptelegram.tgnet.TLRPC;
+import it.deeptelegram.ui.Components.BackupImageView;
+import it.deeptelegram.ui.Components.CheckBox;
+import it.deeptelegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LineProgressView;
 
 import java.io.File;
 import java.util.Date;

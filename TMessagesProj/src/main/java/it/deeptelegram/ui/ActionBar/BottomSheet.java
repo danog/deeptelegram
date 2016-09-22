@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.ActionBar;
+package it.deeptelegram.ui.ActionBar;
 
 import android.animation.Animator;
 import android.animation.AnimatorSet;
@@ -46,7 +46,7 @@ import it.deeptelegram.messenger.AnimatorListenerAdapterProxy;
 import it.deeptelegram.messenger.LocaleController;
 import it.deeptelegram.messenger.FileLog;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 import java.util.ArrayList;
 

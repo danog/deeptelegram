@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.SQLite;
+package it.deeptelegram.SQLite;
 
 public class SQLiteException extends Exception {
 	private static final long serialVersionUID = -2398298479089615621L;

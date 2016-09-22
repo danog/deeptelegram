@@ -13,7 +13,7 @@ import android.os.Bundle;
 import com.google.android.gms.gcm.GcmListenerService;
 
 import org.json.JSONObject;
-import org.telegram.tgnet.ConnectionsManager;
+import it.deeptelegram.tgnet.ConnectionsManager;
 
 public class GcmPushListenerService extends GcmListenerService {
 

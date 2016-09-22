@@ -6,7 +6,7 @@
  * Copyright Nikolai Kudashov, 2013-2016.
  */
 
-package org.telegram.ui.Cells;
+package it.deeptelegram.ui.Cells;
 
 import android.content.Context;
 import android.os.Build;
@@ -22,8 +22,8 @@ import android.widget.TextView;
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.MediaController;
 import it.deeptelegram.messenger.R;
-import org.telegram.ui.Components.BackupImageView;
-import org.telegram.ui.Components.LayoutHelper;
+import it.deeptelegram.ui.Components.BackupImageView;
+import it.deeptelegram.ui.Components.LayoutHelper;
 
 public class PhotoPickerAlbumsCell extends FrameLayout {
 

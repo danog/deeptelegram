@@ -15,12 +15,6 @@
  */
 package it.deeptelegram.messenger.exoplayer;
 
-import it.deeptelegram.messenger.exoplayer.MediaCodecUtil.DecoderQueryException;
-import it.deeptelegram.messenger.exoplayer.drm.DrmSessionManager;
-import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
-import it.deeptelegram.messenger.exoplayer.util.TraceUtil;
-import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -30,7 +24,12 @@ import android.os.Handler;
 import android.os.SystemClock;
 import android.view.Surface;
 import android.view.TextureView;
-
+import it.deeptelegram.messenger.exoplayer.MediaCodecUtil.DecoderQueryException;
+import it.deeptelegram.messenger.exoplayer.drm.DrmSessionManager;
+import it.deeptelegram.messenger.exoplayer.drm.FrameworkMediaCrypto;
+import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
+import it.deeptelegram.messenger.exoplayer.util.TraceUtil;
+import it.deeptelegram.messenger.exoplayer.util.Util;
 import java.nio.ByteBuffer;
 
 /**
@@ -197,8 +196,9 @@ public class MediaCodecVideoTrackRenderer extends MediaCodecTrackRenderer {
    */
   public MediaCodecVideoTrackRenderer(Context context, SampleSource source,
       MediaCodecSelector mediaCodecSelector, int videoScalingMode, long allowedJoiningTimeMs,
-      DrmSessionManager drmSessionManager, boolean playClearSamplesWithoutKeys,
-      Handler eventHandler, EventListener eventListener, int maxDroppedFrameCountToNotify) {
+      DrmSessionManager<FrameworkMediaCrypto> drmSessionManager,
+      boolean playClearSamplesWithoutKeys, Handler eventHandler, EventListener eventListener,
+      int maxDroppedFrameCountToNotify) {
     super(source, mediaCodecSelector, drmSessionManager, playClearSamplesWithoutKeys, eventHandler,
         eventListener);
     this.frameReleaseTimeHelper = new VideoFrameReleaseTimeHelper(context);

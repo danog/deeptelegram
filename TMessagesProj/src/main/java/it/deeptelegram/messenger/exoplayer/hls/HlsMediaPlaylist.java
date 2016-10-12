@@ -16,7 +16,6 @@
 package it.deeptelegram.messenger.exoplayer.hls;
 
 import it.deeptelegram.messenger.exoplayer.C;
-
 import java.util.List;
 
 /**

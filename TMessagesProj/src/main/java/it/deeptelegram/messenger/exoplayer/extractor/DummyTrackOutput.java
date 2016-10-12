@@ -17,7 +17,6 @@ package it.deeptelegram.messenger.exoplayer.extractor;
 
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
 import java.io.IOException;
 
 /**

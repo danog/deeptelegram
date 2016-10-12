@@ -15,6 +15,8 @@
  */
 package it.deeptelegram.messenger.exoplayer.chunk;
 
+import android.os.Handler;
+import android.os.SystemClock;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.LoadControl;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
@@ -27,10 +29,6 @@ import it.deeptelegram.messenger.exoplayer.extractor.DefaultTrackOutput;
 import it.deeptelegram.messenger.exoplayer.upstream.Loader;
 import it.deeptelegram.messenger.exoplayer.upstream.Loader.Loadable;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
-
-import android.os.Handler;
-import android.os.SystemClock;
-
 import java.io.IOException;
 import java.util.Collections;
 import java.util.LinkedList;

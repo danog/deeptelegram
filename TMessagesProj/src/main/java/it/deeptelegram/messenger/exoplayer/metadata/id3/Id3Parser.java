@@ -19,7 +19,6 @@ import it.deeptelegram.messenger.exoplayer.ParserException;
 import it.deeptelegram.messenger.exoplayer.metadata.MetadataParser;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
 import java.util.Arrays;

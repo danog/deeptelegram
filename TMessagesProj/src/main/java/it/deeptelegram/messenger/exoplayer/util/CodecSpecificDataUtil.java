@@ -16,7 +16,6 @@
 package it.deeptelegram.messenger.exoplayer.util;
 
 import android.util.Pair;
-
 import java.util.ArrayList;
 import java.util.List;
 

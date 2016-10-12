@@ -16,7 +16,6 @@
 package it.deeptelegram.messenger.exoplayer.upstream;
 
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
-
 import java.io.IOException;
 
 /**

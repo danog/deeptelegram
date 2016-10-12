@@ -15,6 +15,11 @@
  */
 package it.deeptelegram.messenger.exoplayer;
 
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
+import android.content.Context;
+import android.media.MediaExtractor;
+import android.net.Uri;
 import it.deeptelegram.messenger.exoplayer.SampleSource.SampleSourceReader;
 import it.deeptelegram.messenger.exoplayer.drm.DrmInitData;
 import it.deeptelegram.messenger.exoplayer.drm.DrmInitData.SchemeInitData;
@@ -23,13 +28,6 @@ import it.deeptelegram.messenger.exoplayer.extractor.mp4.PsshAtomUtil;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.annotation.SuppressLint;
-import android.annotation.TargetApi;
-import android.content.Context;
-import android.media.MediaExtractor;
-import android.net.Uri;
-
 import java.io.FileDescriptor;
 import java.io.IOException;
 import java.nio.ByteBuffer;

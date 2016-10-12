@@ -15,10 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer;
 
-import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import android.annotation.TargetApi;
 import android.media.MediaExtractor;
+import it.deeptelegram.messenger.exoplayer.util.Util;
 
 /**
  * Compatibility wrapper around {@link android.media.MediaCodec.CryptoInfo}.

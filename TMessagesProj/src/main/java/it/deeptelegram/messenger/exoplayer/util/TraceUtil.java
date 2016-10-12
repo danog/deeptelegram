@@ -15,9 +15,8 @@
  */
 package it.deeptelegram.messenger.exoplayer.util;
 
-import it.deeptelegram.messenger.exoplayer.ExoPlayerLibraryInfo;
-
 import android.annotation.TargetApi;
+import it.deeptelegram.messenger.exoplayer.ExoPlayerLibraryInfo;
 
 /**
  * Calls through to {@link android.os.Trace} methods on supported API levels.

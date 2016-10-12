@@ -19,7 +19,6 @@ import it.deeptelegram.messenger.exoplayer.SampleHolder;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
 import it.deeptelegram.messenger.exoplayer.util.ParsableBitArray;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
 import java.util.ArrayList;
 
 /**

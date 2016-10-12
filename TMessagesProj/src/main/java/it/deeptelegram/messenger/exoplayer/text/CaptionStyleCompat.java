@@ -15,13 +15,12 @@
  */
 package it.deeptelegram.messenger.exoplayer.text;
 
-import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import android.annotation.TargetApi;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.view.accessibility.CaptioningManager;
 import android.view.accessibility.CaptioningManager.CaptionStyle;
+import it.deeptelegram.messenger.exoplayer.util.Util;
 
 /**
  * A compatibility wrapper for {@link CaptionStyle}.

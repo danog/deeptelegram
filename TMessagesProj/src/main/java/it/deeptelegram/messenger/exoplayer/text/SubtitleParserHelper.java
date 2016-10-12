@@ -15,17 +15,15 @@
  */
 package it.deeptelegram.messenger.exoplayer.text;
 
+import android.media.MediaCodec;
+import android.os.Handler;
+import android.os.Looper;
+import android.os.Message;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
 import it.deeptelegram.messenger.exoplayer.ParserException;
 import it.deeptelegram.messenger.exoplayer.SampleHolder;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.media.MediaCodec;
-import android.os.Handler;
-import android.os.Looper;
-import android.os.Message;
-
 import java.io.IOException;
 
 /**

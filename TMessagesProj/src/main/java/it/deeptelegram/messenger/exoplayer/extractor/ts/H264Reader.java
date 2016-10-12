@@ -15,6 +15,7 @@
  */
 package it.deeptelegram.messenger.exoplayer.extractor.ts;
 
+import android.util.SparseArray;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
 import it.deeptelegram.messenger.exoplayer.extractor.TrackOutput;
@@ -23,9 +24,6 @@ import it.deeptelegram.messenger.exoplayer.util.NalUnitUtil;
 import it.deeptelegram.messenger.exoplayer.util.NalUnitUtil.SpsData;
 import it.deeptelegram.messenger.exoplayer.util.ParsableBitArray;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
-import android.util.SparseArray;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

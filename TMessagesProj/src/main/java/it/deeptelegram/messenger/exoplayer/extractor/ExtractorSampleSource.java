@@ -15,6 +15,10 @@
  */
 package it.deeptelegram.messenger.exoplayer.extractor;
 
+import android.net.Uri;
+import android.os.Handler;
+import android.os.SystemClock;
+import android.util.SparseArray;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
 import it.deeptelegram.messenger.exoplayer.MediaFormatHolder;
@@ -31,12 +35,6 @@ import it.deeptelegram.messenger.exoplayer.upstream.Loader;
 import it.deeptelegram.messenger.exoplayer.upstream.Loader.Loadable;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.net.Uri;
-import android.os.Handler;
-import android.os.SystemClock;
-import android.util.SparseArray;
-
 import java.io.EOFException;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -556,12 +554,13 @@ public final class ExtractorSampleSource implements SampleSource, SampleSourceRe
     Assertions.checkState(remainingReleaseCount > 0);
     if (--remainingReleaseCount == 0) {
       if (loader != null) {
-        loader.release();
+        loader.release(new Runnable() {
+          @Override
+          public void run() {
+            extractorHolder.release();
+          }
+        });
         loader = null;
-      }
-      if (extractorHolder.extractor != null) {
-        extractorHolder.extractor.release();
-        extractorHolder.extractor = null;
       }
     }
   }
@@ -900,6 +899,13 @@ public final class ExtractorSampleSource implements SampleSource, SampleSourceRe
       }
       extractor.init(extractorOutput);
       return extractor;
+    }
+
+    public void release() {
+      if (extractor != null) {
+        extractor.release();
+        extractor = null;
+      }
     }
 
   }

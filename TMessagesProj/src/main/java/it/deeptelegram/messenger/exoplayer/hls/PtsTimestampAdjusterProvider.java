@@ -15,9 +15,8 @@
  */
 package it.deeptelegram.messenger.exoplayer.hls;
 
-import it.deeptelegram.messenger.exoplayer.extractor.ts.PtsTimestampAdjuster;
-
 import android.util.SparseArray;
+import it.deeptelegram.messenger.exoplayer.extractor.ts.PtsTimestampAdjuster;
 
 /**
  * Provides {@link PtsTimestampAdjuster} instances for use during HLS playbacks.

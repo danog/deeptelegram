@@ -15,11 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.extractor.ogg;
 
+import android.util.Log;
 import it.deeptelegram.messenger.exoplayer.ParserException;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
-import android.util.Log;
-
 import java.util.Arrays;
 
 /**

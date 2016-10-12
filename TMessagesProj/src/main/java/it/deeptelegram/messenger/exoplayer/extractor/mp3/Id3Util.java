@@ -15,13 +15,11 @@
  */
 package it.deeptelegram.messenger.exoplayer.extractor.mp3;
 
+import android.util.Pair;
 import it.deeptelegram.messenger.exoplayer.extractor.ExtractorInput;
 import it.deeptelegram.messenger.exoplayer.extractor.GaplessInfo;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.util.Pair;
-
 import java.io.IOException;
 import java.nio.charset.Charset;
 

@@ -15,6 +15,7 @@
  */
 package it.deeptelegram.messenger.exoplayer.extractor.ts;
 
+import android.util.SparseArray;
 import it.deeptelegram.messenger.exoplayer.extractor.Extractor;
 import it.deeptelegram.messenger.exoplayer.extractor.ExtractorInput;
 import it.deeptelegram.messenger.exoplayer.extractor.ExtractorOutput;
@@ -22,9 +23,6 @@ import it.deeptelegram.messenger.exoplayer.extractor.PositionHolder;
 import it.deeptelegram.messenger.exoplayer.extractor.SeekMap;
 import it.deeptelegram.messenger.exoplayer.util.ParsableBitArray;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
-import android.util.SparseArray;
-
 import java.io.IOException;
 
 /**

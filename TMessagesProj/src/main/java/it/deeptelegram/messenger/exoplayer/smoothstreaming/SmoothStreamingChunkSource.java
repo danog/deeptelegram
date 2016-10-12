@@ -15,6 +15,10 @@
  */
 package it.deeptelegram.messenger.exoplayer.smoothstreaming;
 
+import android.net.Uri;
+import android.os.SystemClock;
+import android.util.Base64;
+import android.util.SparseArray;
 import it.deeptelegram.messenger.exoplayer.BehindLiveWindowException;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
@@ -42,12 +46,6 @@ import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.CodecSpecificDataUtil;
 import it.deeptelegram.messenger.exoplayer.util.ManifestFetcher;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
-
-import android.net.Uri;
-import android.os.SystemClock;
-import android.util.Base64;
-import android.util.SparseArray;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;

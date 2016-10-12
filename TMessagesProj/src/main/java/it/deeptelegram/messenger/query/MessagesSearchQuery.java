@@ -8,6 +8,8 @@
 
 package it.deeptelegram.messenger.query;
 
+import android.text.TextUtils;
+
 import it.deeptelegram.messenger.AndroidUtilities;
 import it.deeptelegram.messenger.MessageObject;
 import it.deeptelegram.messenger.MessagesController;
@@ -60,7 +62,7 @@ public class MessagesSearchQuery {
             ConnectionsManager.getInstance().cancelRequest(mergeReqId, true);
             mergeReqId = 0;
         }
-        if (query == null || query.length() == 0) {
+        if (TextUtils.isEmpty(query)) {
             if (searchResultMessages.isEmpty()) {
                 return;
             }
@@ -71,7 +73,7 @@ public class MessagesSearchQuery {
                     NotificationCenter.getInstance().postNotificationName(NotificationCenter.chatSearchResultsAvailable, guid, messageObject.getId(), getMask(), messageObject.getDialogId(), lastReturnedNum, messagesSearchCount[0] + messagesSearchCount[1]);
                     return;
                 } else {
-                    if (messagesSearchEndReached[0] && mergeDialogId == 0 || messagesSearchEndReached[1]) {
+                    if (messagesSearchEndReached[0] && mergeDialogId == 0 && messagesSearchEndReached[1]) {
                         lastReturnedNum--;
                         return;
                     }
@@ -104,6 +106,10 @@ public class MessagesSearchQuery {
             } else {
                 return;
             }
+        } else if (firstQuery) {
+            messagesSearchEndReached[0] = messagesSearchEndReached[1] = false;
+            messagesSearchCount[0] = messagesSearchCount[1] = 0;
+            searchResultMessages.clear();
         }
         if (messagesSearchEndReached[0] && !messagesSearchEndReached[1] && mergeDialogId != 0) {
             queryWithDialog = mergeDialogId;

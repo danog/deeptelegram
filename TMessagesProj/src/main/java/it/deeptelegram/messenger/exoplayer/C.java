@@ -15,11 +15,10 @@
  */
 package it.deeptelegram.messenger.exoplayer;
 
-import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import android.media.AudioFormat;
 import android.media.MediaCodec;
 import android.media.MediaExtractor;
+import it.deeptelegram.messenger.exoplayer.util.Util;
 
 /**
  * Defines constants that are generally useful throughout the library.

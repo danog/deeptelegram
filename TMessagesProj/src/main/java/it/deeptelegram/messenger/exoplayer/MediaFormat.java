@@ -15,15 +15,13 @@
  */
 package it.deeptelegram.messenger.exoplayer;
 
-import it.deeptelegram.messenger.exoplayer.util.Assertions;
-import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
-import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.os.Parcel;
 import android.os.Parcelable;
-
+import it.deeptelegram.messenger.exoplayer.util.Assertions;
+import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
+import it.deeptelegram.messenger.exoplayer.util.Util;
 import java.nio.ByteBuffer;
 import java.util.ArrayList;
 import java.util.Arrays;

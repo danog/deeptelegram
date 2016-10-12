@@ -15,9 +15,8 @@
  */
 package it.deeptelegram.messenger.exoplayer;
 
-import it.deeptelegram.messenger.exoplayer.util.Clock;
-
 import android.os.SystemClock;
+import it.deeptelegram.messenger.exoplayer.util.Clock;
 
 /**
  * A container to store a start and end time in microseconds.

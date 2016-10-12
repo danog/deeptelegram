@@ -24,7 +24,6 @@ import it.deeptelegram.messenger.exoplayer.extractor.SeekMap;
 import it.deeptelegram.messenger.exoplayer.extractor.TrackOutput;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
 import java.io.IOException;
 
 /**
@@ -32,7 +31,7 @@ import java.io.IOException;
  * <p>
  * The wrapper allows switching of the {@link SingleTrackOutput} that receives parsed data.
  */
-public final class ChunkExtractorWrapper implements ExtractorOutput, TrackOutput {
+public class ChunkExtractorWrapper implements ExtractorOutput, TrackOutput {
 
   /**
    * Receives stream level data extracted by the wrapped {@link Extractor}.

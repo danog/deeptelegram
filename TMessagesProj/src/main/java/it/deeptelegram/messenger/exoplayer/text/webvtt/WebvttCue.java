@@ -15,10 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.text.webvtt;
 
-import it.deeptelegram.messenger.exoplayer.text.Cue;
-
 import android.text.Layout.Alignment;
 import android.util.Log;
+import it.deeptelegram.messenger.exoplayer.text.Cue;
 
 /**
  * A representation of a WebVTT cue.

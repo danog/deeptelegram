@@ -15,6 +15,7 @@
  */
 package it.deeptelegram.messenger.exoplayer.hls;
 
+import android.util.SparseArray;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
 import it.deeptelegram.messenger.exoplayer.SampleHolder;
 import it.deeptelegram.messenger.exoplayer.chunk.Format;
@@ -28,9 +29,6 @@ import it.deeptelegram.messenger.exoplayer.extractor.TrackOutput;
 import it.deeptelegram.messenger.exoplayer.upstream.Allocator;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
-
-import android.util.SparseArray;
-
 import java.io.IOException;
 
 /**
@@ -240,6 +238,15 @@ public final class HlsExtractorWrapper implements ExtractorOutput {
     int result = extractor.read(input, null);
     Assertions.checkState(result != Extractor.RESULT_SEEK);
     return result;
+  }
+
+  public long getAdjustedEndTimeUs() {
+    long largestAdjustedPtsParsed = Long.MIN_VALUE;
+    for (int i = 0; i < sampleQueues.size(); i++) {
+      largestAdjustedPtsParsed = Math.max(largestAdjustedPtsParsed,
+          sampleQueues.valueAt(i).getLargestParsedTimestampUs());
+    }
+    return largestAdjustedPtsParsed;
   }
 
   // ExtractorOutput implementation.

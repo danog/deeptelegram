@@ -15,10 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.text.ttml;
 
-import it.deeptelegram.messenger.exoplayer.util.Assertions;
-
 import android.graphics.Typeface;
 import android.text.Layout;
+import it.deeptelegram.messenger.exoplayer.util.Assertions;
 
 /**
  * Style object of a <code>TtmlNode</code>

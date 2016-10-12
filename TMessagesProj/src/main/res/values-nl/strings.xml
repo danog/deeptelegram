@@ -3,8 +3,8 @@
 <!--https://www.transifex.com/projects/p/telegram/language/nl/members/-->
 
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram-bèta</string>
+    <string name="AppName">Deep Telegram</string>
+    <string name="AppNameBeta">Deep Telegram-bèta</string>
     <string name="LanguageName">Nederlands</string>
     <string name="LanguageNameInEnglish">Dutch</string>
     <string name="LanguageCode">nl</string>
@@ -16,8 +16,8 @@
     <!--code enter view-->
     <string name="YourCode">Telefoonverificatie</string>
     <string name="SentSmsCode">We hebben een sms-bericht met activatiecode verzonden naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
-    <string name="SentAppCode">We hebben de code naar je andere  <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>-app gestuurd.</string>
-    <string name="SentCallCode">We doen een activatie-oproep naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nNeem niet op, Telegram verwerkt de oproep automatisch.</string>
+    <string name="SentAppCode">We hebben de code naar je andere  <![CDATA[<b>]]>Deep Telegram<![CDATA[</b>]]>-app gestuurd.</string>
+    <string name="SentCallCode">We doen een activatie-oproep naar <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nNeem niet op, Deep Telegram verwerkt de oproep automatisch.</string>
     <string name="SentCallOnly">We bellen je op <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> om een code te dicteren.</string>
     <string name="CallText">We bellen je over %1$d:%2$02d</string>
     <string name="SmsText">We sturen je een SMS over %1$d:%2$02d</string>
@@ -25,6 +25,15 @@
     <string name="Code">Code</string>
     <string name="WrongNumber">Verkeerd nummer?</string>
     <string name="DidNotGetTheCode">Geen code ontvangen?</string>
+    <string name="CancelAccountReset">Account reset annuleren</string>
+    <string name="CancelAccountResetInfo">Iemand met toegang tot nummer <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> heeft geprobeerd om je Deep Telegram account te verwijderen en je twee-staps-verificatie wachtwoord te resetten.\n\nAls jij dit niet was, geef dan de code in die we zojuist per SMS hebben gestuurd.</string>
+    <string name="ResetAccount">Account resetten</string>
+    <string name="ResetAccountInfo">Account <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> is actief en beveiligd met een wachtwoord, het verwijderen stellen we daarom 1 week uit.\n\nJe kunt dit proces ieder moment annuleren.</string>
+    <string name="ResetAccountStatus">Je account kan gereset worden over:</string>
+    <string name="ResetAccountCancelledAlert">De actieve gebruiker heeft de recente poging om dit account te resetten geannuleerd. Probeer het over 7 dagen nog eens.</string>
+    <string name="ResetAccountButton">RESETTEN</string>
+    <string name="CancelLinkExpired">Deze link is ongeldig of verlopen.</string>
+    <string name="CancelLinkSuccess">De verwijdering van account: %1$s is geannuleerd. Je kunt dit venster sluiten.</string>
     <!--signup view-->
     <string name="YourName">Je naam</string>
     <string name="RegisterText">Voer je voor- en achternaam in</string>
@@ -56,7 +65,7 @@
     <string name="HiddenName">Verwijderd account</string>
     <string name="SelectChat">Kies een chat</string>
     <string name="PhotoTip">Druk en houd ingedrukt</string>
-    <string name="CompatibilityChat">%1$s gebruikt een oudere versie van Telegram, dus worden geheime foto\'s weergegeven in de compatibiliteitsmodus.\n\nZodra %2$s Telegram updatet werken foto\'s met timers voor 1 minuut of minder in de \'Druk en houd ingedrukt\'-modus en krijg je een bericht wanneer de andere partij een schermafdruk maakt.</string>
+    <string name="CompatibilityChat">%1$s gebruikt een oudere versie van Deep Telegram, dus worden geheime foto\'s weergegeven in de compatibiliteitsmodus.\n\nZodra %2$s Deep Telegram updatet werken foto\'s met timers voor 1 minuut of minder in de \'Druk en houd ingedrukt\'-modus en krijg je een bericht wanneer de andere partij een schermafdruk maakt.</string>
     <string name="SearchMessages">BERICHTEN</string>
     <string name="Search">Zoeken</string>
     <string name="MuteNotifications">Meldingen stil</string>
@@ -101,6 +110,7 @@
     <string name="ActionPinnedSticker">un1 heeft sticker vastgezet</string>
     <string name="ActionPinnedVoice">un1 heeft spraakbericht vastgezet</string>
     <string name="ActionPinnedContact">un1 heeft contact vastgezet</string>
+    <string name="ActionPinnedGame">un1 heeft een %1$s vastgezet</string>
     <string name="ActionPinnedGeo">un1 heeft locatie vastgezet</string>
     <string name="ActionPinnedGif">un1 heeft GIF vastgezet</string>
     <string name="ActionPinnedMusic">un1 heeft muziekbestand vastgezet</string>
@@ -163,8 +173,7 @@
     <string name="ActionChannelChangedPhoto">Kanaalfoto bijgewerkt</string>
     <string name="ActionChannelRemovedPhoto">Kanaalfoto verwijderd</string>
     <string name="ActionChannelChangedTitle">Kanaalnaam gewijzigd naar un2</string>
-    <string name="ChannelPublicLimitReached">Het maximale aantal publieke kanalen is bereikt. Je kunt een privé-kanaal maken of een kanaal verwijderen om een nieuwe te maken.</string>
-    <string name="ChangePublicLimitReached">Het maximale aantal publieke links is bereikt. Maak een groep of kanaal privé of verwijder er 1.</string>
+    <string name="ChangePublicLimitReached">Het maximale aantal publieke gebruikersnamen is bereikt. Trek eerst een link van één van je oudere groepen of kanalen in, of gebruik de privé-variant.</string>
     <string name="ChannelModerator">Moderator</string>
     <string name="ChannelCreator">Maker</string>
     <string name="ChannelEditor">Beheerder</string>
@@ -176,7 +185,7 @@
     <string name="ChannelRemoveUserAdmin">Verwijder</string>
     <string name="ChannelMembersInfo">Alleen kanaal-beheerders zien deze lijst.</string>
     <string name="ChannelAdminNotParticipant">Deze gebruiker is nog geen lid, uitnodigen?</string>
-    <string name="ChannelLinkInfo">Andere Telegram-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
+    <string name="ChannelLinkInfo">Andere Deep Telegram-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
     <string name="ChannelAdminsInfo">Je kunt beheerders toevoegen om je te helpen je kanaal te beheren. Druk en houd ingedrukt om beheerders te verwijderen.</string>
     <string name="ChannelJoinTo">Lid worden van kanaal \'%1$s\'?</string>
     <string name="ChannelCantOpenPrivate">Sorry, deze chat is niet beschikbaar.</string>
@@ -265,7 +274,7 @@
     <string name="SendingPhoto">foto versturen</string>
     <string name="SendingVideoStatus">video versturen</string>
     <string name="SendingFile">bestand versturen</string>
-    <string name="GotAQuestion">Heb je een vraag\nover Telegram?</string>
+    <string name="GotAQuestion">Heb je een vraag\nover Deep Telegram?</string>
     <string name="ChatTakePhoto">Foto maken</string>
     <string name="ChatGallery">Galerij</string>
     <string name="ChatLocation">Locatie</string>
@@ -303,9 +312,11 @@
     <string name="ServiceNotifications">Servicemeldingen</string>
     <string name="GettingLinkInfo">Link-preview ophalen...</string>
     <string name="OpenInBrowser">OPENEN IN...</string>
+    <string name="OpenInExternalApp">Open met...</string>
     <string name="CopyUrl">Link kopiëren</string>
     <string name="SendItems">%1$s versturen</string>
     <string name="OpenUrlAlert">URL %1$s openen?</string>
+    <string name="BotPermissionGameAlert">Wil je %1$s toestaan om je naam en ID (niet je telefoonnummer) door te geven aan webpagina\'s die je opent via deze bot?</string>
     <string name="ReportSpam">SPAM MELDEN</string>
     <string name="ReportSpamAndLeave">SPAM MELDEN EN VERLATEN</string>
     <string name="AddContactChat">CONTACT TOEVOEGEN</string>
@@ -334,12 +345,19 @@
     <string name="ReportChatOther">Overig</string>
     <string name="ReportChatDescription">Beschrijving</string>
     <string name="PinnedMessage">Vastgezet bericht</string>
-    <string name="EditedMessage">bewerkt</string>
+    <string name="EditedMessage">gewijzigd</string>
     <string name="AttachBotsHelp">Scrollen voor bots</string>
     <string name="TimeToEdit">%1$s</string>
-    <string name="TimeToEditExpired">Bewerken kan niet meer.</string>
+    <string name="TimeToEditExpired">Wijzigen kan niet meer.</string>
     <string name="AddShortcut">Snelkoppeling toevoegen</string>
     <string name="ShortcutAdded">Snelkoppeling aan startscherm toegevoegd</string>
+    <string name="ChatYourSelf">Je Cloudopslag</string>
+    <string name="ChatYourSelfName">Jij</string>
+    <string name="ChatYourSelfDescription1">• Berichten naartoe door te sturen</string>
+    <string name="ChatYourSelfDescription2">• Media en bestanden te bewaren</string>
+    <string name="ChatYourSelfDescription3">• Te gebruiken op al je apparaten</string>
+    <string name="ChatYourSelfDescription4">• Snel dingen in op te zoeken</string>
+    <string name="ChatYourSelfTitle">Je Cloudopslag is er om:</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s heeft de zelfvernietigingstimer ingesteld op %2$s</string>
     <string name="MessageLifetimeChangedOutgoing">Je hebt de zelfvernietigingstimer ingesteld op %1$s</string>
@@ -352,6 +370,7 @@
     <string name="NotificationMessageVideo">%1$s heeft je een video gestuurd</string>
     <string name="NotificationMessageContact">%1$s heeft een contact met je gedeeld</string>
     <string name="NotificationMessageMap">%1$s heeft je een locatie gestuurd</string>
+    <string name="NotificationMessageGame">%1$s wil %2$s met je spelen</string>
     <string name="NotificationMessageDocument">%1$s heeft je een bestand gestuurd</string>
     <string name="NotificationMessageGif">%1$s heeft je een GIF gestuurd</string>
     <string name="NotificationMessageAudio">%1$s heeft je een spraakbericht gestuurd</string>
@@ -364,6 +383,7 @@
     <string name="NotificationMessageGroupVideo">%1$s heeft een video gestuurd naar de groep %2$s</string>
     <string name="NotificationMessageGroupContact">%1$s heeft een contact gedeeld met de groep %2$s</string>
     <string name="NotificationMessageGroupMap">%1$s heeft een locatie gestuurd naar de groep %2$s</string>
+    <string name="NotificationMessageGroupGame">%1$s wil %3$s met de groep %2$s spelen</string>
     <string name="NotificationMessageGroupDocument">%1$s heeft een bestand gestuurd naar de groep %2$s</string>
     <string name="NotificationMessageGroupGif">%1$s heeft een GIF gestuurd naar de groep %2$s</string>
     <string name="NotificationMessageGroupAudio">%1$s heeft een spraakbericht gestuurd naar de groep %2$s</string>
@@ -379,8 +399,8 @@
     <string name="NotificationGroupKickMember">%1$s heeft %3$s verwijderd uit de groep %2$s</string>
     <string name="NotificationGroupKickYou">%1$s heeft je verwijderd uit de groep %2$s</string>
     <string name="NotificationGroupLeftMember">%1$s heeft de groep %2$s verlaten</string>
-    <string name="NotificationContactJoined">%1$s heeft nu Telegram!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,\nEr is op je account ingelogd vanaf een nieuw apparaat op %2$s\n\nApparaat: %3$s\nLocatie: %4$s\n\nAls jij dit niet was, kun je die sessie beëindigen via Instellingen - Privacy en veiligheid - Sessies.\n\nAls je dat denkt dat iemand anders zonder jouw toestemming is ingelogd kun je twee-staps-verificatie activeren via instellingen - privacy en veiligheid.\n\nBedankt,\nHet Telegram-team</string>
+    <string name="NotificationContactJoined">%1$s heeft nu Deep Telegram!</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nEr is op je account ingelogd vanaf een nieuw apparaat op %2$s\n\nApparaat: %3$s\nLocatie: %4$s\n\nAls jij dit niet was, kun je die sessie beëindigen via Instellingen - Privacy en veiligheid - Sessies.\n\nAls je dat denkt dat iemand anders zonder jouw toestemming is ingelogd kun je twee-staps-verificatie activeren via instellingen - privacy en veiligheid.\n\nBedankt,\nHet Deep Telegram-team</string>
     <string name="NotificationContactNewPhoto">%1$s heeft zijn/haar profielfoto gewijzigd</string>
     <string name="NotificationInvitedToGroupByLink">%1$s is nu lid van de groep %2$s via uitnodigingslink</string>
     <string name="Reply">Antwoord</string>
@@ -390,6 +410,7 @@
     <string name="NotificationActionPinnedText">%1$s heeft \"%2$s\" vastgezet in de groep %3$s</string>
     <string name="NotificationActionPinnedNoText">%1$s heeft bericht vastgezet in de groep %2$s</string>
     <string name="NotificationActionPinnedPhoto">%1$s heeft foto vastgezet in de groep %2$s</string>
+    <string name="NotificationActionPinnedGame">%1$s heeft een spel in de groep %2$s vastgezet</string>
     <string name="NotificationActionPinnedVideo">%1$s heeft video vastgezet in de groep %2$s</string>
     <string name="NotificationActionPinnedFile">%1$s heeft bestand vastgezet in de groep %2$s</string>
     <string name="NotificationActionPinnedSticker">%1$s heeft sticker vastgezet in de groep %2$s</string>
@@ -411,10 +432,11 @@
     <string name="NotificationActionPinnedGeoChannel">%1$s heeft locatie vastgezet</string>
     <string name="NotificationActionPinnedGifChannel">%1$s heeft GIF vastgezet</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s heeft muziekbestand vastgezet</string>
+    <string name="NotificationActionPinnedGameChannel">%1$s heeft een spel vastgezet</string>
     <!--contacts view-->
     <string name="SelectContact">Contact kiezen</string>
     <string name="NoContacts">Nog geen contacten</string>
-    <string name="InviteText">Hey, zullen we overstappen op Telegram: https://telegram.org/dl</string>
+    <string name="InviteText">Hey, zullen we overstappen op Deep Telegram: https://telegram.org/dl</string>
     <string name="TodayAt">om</string>
     <string name="YesterdayAt">gisteren om</string>
     <string name="Online">online</string>
@@ -444,9 +466,11 @@
     <string name="RevokeAlertNewLink">De oude link is nu inactief. Een nieuwe link is aangemaakt.</string>
     <string name="RevokeButton">Intrekken</string>
     <string name="RevokeLink">Link intrekken</string>
+    <string name="RevokeLinkAlert">Link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> echt intrekken?\n\nDe groep \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" zal privé worden.</string>
+    <string name="RevokeLinkAlertChannel">Link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> echt intrekken?\n\nHet kanaal \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" zal privé worden.</string>
     <string name="CopyLink">Link kopiëren</string>
     <string name="ShareLink">Link delen</string>
-    <string name="LinkInfo">Andere Telegram-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
+    <string name="LinkInfo">Andere Deep Telegram-gebruikers kunnen lid worden van je groep door deze link te openen.</string>
     <!--set admins view-->
     <string name="SetAdminsTitle">Beheerders</string>
     <string name="SetAdminsAll">Iedereen is beheerder</string>
@@ -465,13 +489,15 @@
     <string name="ConvertGroupMenu">Opwaarderen naar supergroep</string>
     <string name="ConvertGroupAlertWarning">Waarschuwing</string>
     <string name="ConvertGroupAlert">Groep echt omzetten naar supergroep? Je kunt dit niet ongedaan maken.</string>
-    <string name="ConvertGroupInfo"><![CDATA[<b>]]>Ledenlimiet bereikt.<![CDATA[</b>]]>\n\nWil je extra functies en een hogere limiet? Waardeer op naar een supergroep:\n\n• Supergroepen hebben tot %1$s\n• Nieuwe leden zien de hele geschiedenis\n•Gewiste berichten gelden voor iedereen\n• Maker kan een publieke groepslink instellen</string>
-    <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Supergroepen:<![CDATA[</b>]]>\n\n• Nieuwe leden zien de hele geschiedenis\n• Gewiste berichten gelden voor iedereen\n• Maker kan een publieke groepslink instellen</string>
+    <string name="ConvertGroupInfo"><![CDATA[<b>]]>Ledenlimiet bereikt.<![CDATA[</b>]]>\n\nWil je extra functies en een hogere limiet? Waardeer op naar een supergroep:\n\n• Supergroepen hebben maximaal %1$s\n•  Nieuwe leden zien de hele geschiedenis\n•Gewiste berichten gelde voor iedereen\n•  Beheerders kunnen berichten vastzetten\n• Maker kan een publieke groepslink instellen  </string>
+    <string name="ConvertGroupInfo2"><![CDATA[<b>]]>Supergroepen:<![CDATA[</b>]]>\n\n• Nieuwe leden zien de hele geschiedenis\n• Gewiste berichten gelden voor iedereen\n• Beheerders kunnen berichten vastzetten\n• Maker kan een publieke groepslink instellen</string>
     <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Let op:<![CDATA[</b>]]> Je kunt dit niet ongedaan maken.</string>
     <!--contact info view-->
     <string name="ShareContact">Delen</string>
     <string name="AddContact">Toevoegen</string>
     <string name="AddContactTitle">Contact toevoegen</string>
+    <string name="ContactNotRegistered">%1$s is nog geen lid, uitnodigen?</string>
+    <string name="Invite">Nodig uit</string>
     <string name="BlockContact">Blokkeer</string>
     <string name="EditContact">Wijzig</string>
     <string name="DeleteContact">Verwijder</string>
@@ -498,27 +524,43 @@
     <string name="UsernameInvalidShort">Je naam moet minimaal 5 tekens hebben.</string>
     <string name="UsernameInvalidLong">Je naam mag niet langer zijn dan 32 tekens.</string>
     <string name="UsernameInvalidStartNumber">Sorry, begincijfers zijn niet toegestaan.</string>
-    <string name="UsernameHelp">Je kan een gebruikersnaam kiezen voor <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Hiermee kunnen anderen je vinden en contact met je opnemen zonder je telefoonnummer te weten.<![CDATA[<br><br>]]>Je mag <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> en liggend streepje gebruiken. De minimale lengte is <![CDATA[<b>]]>5<![CDATA[</b>]]> tekens.</string>
+    <string name="UsernameHelp">Je kan een gebruikersnaam kiezen voor <![CDATA[<b>]]>Deep Telegram<![CDATA[</b>]]>. Hiermee kunnen anderen je vinden en contact met je opnemen zonder je telefoonnummer te weten.<![CDATA[<br><br>]]>Je mag <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> en liggend streepje gebruiken. De minimale lengte is <![CDATA[<b>]]>5<![CDATA[</b>]]> tekens.</string>
     <string name="UsernameChecking">Gebruikersnaam controleren.</string>
     <string name="UsernameAvailable">%1$s is beschikbaar.</string>
     <string name="UsernameEmpty">Geen</string>
     <string name="ErrorOccurred">Er is een fout opgetreden.</string>
     <!--stickers view-->
     <string name="Stickers">Stickers</string>
-    <string name="StickersInfo">Ontwerpers kunnen stickerbundels toevoegen via onze bot: @stickers.\n\nGebruikers kunnen met een tik stickers toevoegen via \"Toevoegen aan stickers\".</string>
     <string name="AddStickers">Stickers toevoegen</string>
+    <string name="AddMasks">Maskers toevoegen</string>
     <string name="AddToStickers">Toevoegen aan stickers</string>
+    <string name="AddToMasks">Maskers toevoegen</string>
     <string name="AddStickersNotFound">Stickers niet gevonden</string>
     <string name="StickersRemoved">Stickers verwijderd</string>
+    <string name="MasksRemoved">Maskers verwijderd</string>
     <string name="AddStickersInstalled">Nieuwe stickers toegevoegd</string>
-    <string name="StickersHide">Verbergen</string>
-    <string name="StickersShow">Weergeven</string>
+    <string name="AddMasksInstalled">Nieuwe maskers toegevoegd</string>
+    <string name="StickersHide">Archiveer</string>
     <string name="StickersShare">Delen</string>
     <string name="StickersCopy">Link kopiëren</string>
     <string name="StickersRemove">Verwijder</string>
     <string name="NoStickers">Nog geen stickers</string>
+    <string name="NoMasks">Nog geen maskers</string>
+    <string name="Masks">Maskers</string>
+    <string name="MasksInfo">Je kunt maskers toevoegen aan foto\'s , gebruik de fotobewerkingsoptie en verstuur ze.</string>
+    <string name="FeaturedStickers">Populaire stickers</string>
+    <string name="FeaturedStickersInfo">Deze stickers zijn momenteel populair op Deep Telegram. Just kunt persoonlijke stickers toevoegen via de @stickers bot.</string>
+    <string name="ArchivedStickers">Gearchiveerde stickers</string>
+    <string name="ArchivedMasks">Gearchiveerde maskers</string>
+    <string name="ArchivedStickersEmpty">Geen gearchiveerde stickers</string>
+    <string name="ArchivedMasksEmpty">Geen gearchiveerde maskers</string>
+    <string name="ArchivedStickersInfo">Je kunt 200 stickerbundels tegelijk installeren, daarboven archiveren we ongebruikte stickers.</string>
+    <string name="ArchivedMasksInfo">Je kunt 200 maskerbundels tegelijk installeren, daarboven archiveren we ongebruikte maskers.</string>
     <string name="SendSticker">STICKER STUREN</string>
-    <string name="TooMuchStickersets">Je hebt het maximale aantal stickerbundels bereikt.</string>
+    <string name="ArchivedStickersAlertTitle">Gearchiveerde stickers</string>
+    <string name="ArchivedStickersAlertInfo">Een aantal ongebruikte stickerbundels zijn gearchiveerd. Je deze opnieuw activeren via de stickersinstellingen.</string>
+    <string name="ArchivedMasksAlertTitle">Gearchiveerde maskers</string>
+    <string name="ArchivedMasksAlertInfo">Een aantal ongebruikte maskerbundels zijn gearchiveerd. Je kunt deze opnieuw activeren via de maskerinstellingen.</string>
     <!--settings view-->
     <string name="ResetNotificationsText">Meldingen gereset</string>
     <string name="TextSize">Tekstgrootte berichten</string>
@@ -552,10 +594,10 @@
     <string name="SendByEnter">Versturen met Enter</string>
     <string name="TerminateAllSessions">Beëindig alle andere sessies</string>
     <string name="Events">Gebeurtenissen</string>
-    <string name="ContactJoined">Contact lid van Telegram</string>
+    <string name="ContactJoined">Contact lid van Deep Telegram</string>
     <string name="PinnedMessages">Vastgezette berichten</string>
     <string name="Language">Taal</string>
-    <string name="AskAQuestionInfo">De ondersteuning van Telegram wordt gedaan door vrijwilligers. We doen ons best om zo snel mogelijk te antwoorden.<![CDATA[<br><br>]]>Bekijk ook de <![CDATA[<a href=\"https://telegram.org/faq#general\">veelgestelde vragen</a>]]>: Hier staan de antwoorden op de meeste vragen en belangrijke tips voor <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">het oplossen van problemen</a>]]>.</string>
+    <string name="AskAQuestionInfo">De ondersteuning van Deep Telegram wordt gedaan door vrijwilligers. We doen ons best om zo snel mogelijk te antwoorden.<![CDATA[<br><br>]]>Bekijk ook de <![CDATA[<a href=\"https://telegram.org/faq#general\">veelgestelde vragen</a>]]>: Hier staan de antwoorden op de meeste vragen en belangrijke tips voor <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">het oplossen van problemen</a>]]>.</string>
     <string name="AskButton">Vraag een vrijwilliger</string>
     <string name="TelegramFaq">Veelgestelde vragen</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -600,12 +642,12 @@
     <string name="NotificationsPriorityMax">Max</string>
     <string name="RepeatNotificationsNever">Nooit</string>
     <string name="RepeatNotifications">Meldingen herhalen</string>
-    <string name="PhoneNumberHelp">Je kan je telefoonnummer hier wijzigen. Al je clouddata — berichten, bestanden, groepen, contacten, etc. zullen worden gekopieërd naar je nieuwe nummer.\n\n<![CDATA[<b>Let op:</b>]]> al je Telegram-contacten krijgen je  <![CDATA[<b>nieuwe nummer</b>]]> in hun adresboek, ervan uitgaande dat ze je oude nummer hadden en je hen niet had geblokkeerd in Telegram.</string>
-    <string name="PhoneNumberAlert">Al je Telegram-contacten krijgen je nieuwe nummer in hun adresboek, ervan uitgaande dat ze je oude nummer hadden en je hen niet had geblokkeerd in Telegram.</string>
+    <string name="PhoneNumberHelp">Je kan je telefoonnummer hier wijzigen. Al je clouddata — berichten, bestanden, groepen, contacten, etc. zullen worden gekopieërd naar je nieuwe nummer.\n\n<![CDATA[<b>Let op:</b>]]> al je Deep Telegram-contacten krijgen je  <![CDATA[<b>nieuwe nummer</b>]]> in hun adresboek, ervan uitgaande dat ze je oude nummer hadden en je hen niet had geblokkeerd in Deep Telegram.</string>
+    <string name="PhoneNumberAlert">Al je Deep Telegram-contacten krijgen je nieuwe nummer in hun adresboek, ervan uitgaande dat ze je oude nummer hadden en je hen niet had geblokkeerd in Deep Telegram.</string>
     <string name="PhoneNumberChange">NUMMER WIJZIGEN</string>
     <string name="ChangePhoneNewNumber">Nieuw nummer</string>
     <string name="ChangePhoneHelp">We sturen een sms-bericht met verificatiecode naar je nieuwe nummer.</string>
-    <string name="ChangePhoneNumberOccupied">Aan telefoonnummer %1$s is al een Telegram-account gekoppeld. Verwijder het account om te kunnen migreren naar het nieuwe nummer.</string>
+    <string name="ChangePhoneNumberOccupied">Aan telefoonnummer %1$s is al een Deep Telegram-account gekoppeld. Verwijder het account om te kunnen migreren naar het nieuwe nummer.</string>
     <string name="NotificationsOther">Overig</string>
     <string name="NotificationsDisabled">Uitgeschakeld</string>
     <string name="VibrationDisabled">Uitgeschakeld</string>
@@ -627,11 +669,14 @@
     <string name="ChromeCustomTabsInfo">Externe links in de app openen</string>
     <string name="DirectShare">Snel delen</string>
     <string name="DirectShareInfo">Recente chats in snel delen weergeven</string>
+    <string name="Emoji">Emoji</string>
+    <string name="EmojiBigSize">Draw single big emoji</string>
+    <string name="EmojiUseDefault">Use system default emoji</string>
     <!--cache view-->
     <string name="CacheSettings">Cache-instellingen</string>
     <string name="LocalDatabase">Lokale database</string>
     <string name="LocalDatabaseClear">Gecachet tekstberichten wissen?</string>
-    <string name="LocalDatabaseInfo">Het opschonen van de lokale database zal de tekst van gecachet berichten verwijderen en de database comprimeren om ruimte te besparen. Telegram heeft wat ruimte nodig om te kunnen functioneren, dus de databasegrootte zal nooit nul worden.\n\nDit kan enkele minuten duren.</string>
+    <string name="LocalDatabaseInfo">Het opschonen van de lokale database zal de tekst van gecachet berichten verwijderen en de database comprimeren om ruimte te besparen. Deep Telegram heeft wat ruimte nodig om te kunnen functioneren, dus de databasegrootte zal nooit nul worden.\n\nDit kan enkele minuten duren.</string>
     <string name="ClearMediaCache">Cache opschonen</string>
     <string name="CacheClear">Opschonen</string>
     <string name="CalculatingSize">Berekenen...</string>
@@ -643,13 +688,13 @@
     <string name="LocalCache">Overige bestanden</string>
     <string name="CacheEmpty">Leeg</string>
     <string name="KeepMedia">Media bewaren</string>
-    <string name="KeepMediaInfo">Foto\'s, video\'s en andere bestanden uit cloudchats die je gedurende deze periode niet hebt  <![CDATA[<b>geopend</b>]]> zullen worden verwijderd van dit apparaat om ruimte te besparen.\n\nAlle media zal in de Telegram-cloud bewaard blijven en kan opnieuw worden gedownload als je het weer nodig hebt.</string>
+    <string name="KeepMediaInfo">Foto\'s, video\'s en andere bestanden uit cloudchats die je gedurende deze periode niet hebt  <![CDATA[<b>geopend</b>]]> zullen worden verwijderd van dit apparaat om ruimte te besparen.\n\nAlle media zal in de Deep Telegram-cloud bewaard blijven en kan opnieuw worden gedownload als je het weer nodig hebt.</string>
     <string name="KeepMediaForever">Voor altijd</string>
     <!--sessions view-->
     <string name="SessionsTitle">Actieve sessies</string>
     <string name="CurrentSession">Huidige sessie</string>
     <string name="NoOtherSessions">Geen andere actieve sessies</string>
-    <string name="NoOtherSessionsInfo">Je kunt in Telegram inloggen vanaf andere apparaten (mobiel, tablet, desktop) met hetzelfde telefoonnummer. Al je data zal direct worden gesynchroniseerd.</string>
+    <string name="NoOtherSessionsInfo">Je kunt in Deep Telegram inloggen vanaf andere apparaten (mobiel, tablet, desktop) met hetzelfde telefoonnummer. Al je data zal direct worden gesynchroniseerd.</string>
     <string name="OtherSessions">Actieve sessies</string>
     <string name="SessionsInfo">Beheer je sessies van andere apparaten.</string>
     <string name="TerminateSessionInfo">Tik op een sessie om deze te beëindigen.</string>
@@ -658,8 +703,8 @@
     <!--passcode view-->
     <string name="Passcode">Toegangscode-vergrendeling</string>
     <string name="ChangePasscode">Toegangscode wijzigen</string>
-    <string name="ChangePasscodeInfo">Als je een toegangscode instelt verschijnt er een slotje op de chatspagina. Tik erop om Telegram te vergrendelen of te ontgrendelen.\n\nLet op: vergeet je de toegangscode dan zul je de app moeten verwijderen en herinstalleren. Alle geheime chats gaan daarbij verloren.</string>
-    <string name="ChangePasscodeAlert">Je zult nu een slotje op de chatspagina zien. Tik erop om Telegram te vergrendelen met je nieuwe toegangscode.</string>
+    <string name="ChangePasscodeInfo">Als je een toegangscode instelt verschijnt er een slotje op de chatspagina. Tik erop om Deep Telegram te vergrendelen of te ontgrendelen.\n\nLet op: vergeet je de toegangscode dan zul je de app moeten verwijderen en herinstalleren. Alle geheime chats gaan daarbij verloren.</string>
+    <string name="ChangePasscodeAlert">Je zult nu een slotje op de chatspagina zien. Tik erop om Deep Telegram te vergrendelen met je nieuwe toegangscode.</string>
     <string name="PasscodePIN">PIN</string>
     <string name="PasscodePassword">Wachtwoord</string>
     <string name="EnterCurrentPasscode">Huidige toegangscode invoeren</string>
@@ -754,6 +799,14 @@
     <string name="PhotoCaption">Foto-onderschrift</string>
     <string name="VideoCaption">Video-onderschrift</string>
     <string name="Caption">Onderschrift</string>
+    <string name="PaintDraw">Tekenen</string>
+    <string name="PaintStickers">Stickers</string>
+    <string name="PaintText">Tekst</string>
+    <string name="PaintDelete">Verwijder</string>
+    <string name="PaintEdit">Bewerk</string>
+    <string name="PaintDuplicate">Klonen</string>
+    <string name="PaintOutlined">Omlijnd</string>
+    <string name="PaintRegular">Normaal</string>
     <!--password view-->
     <string name="TwoStepVerification">Twee-staps-verificatie</string>
     <string name="SetAdditionalPassword">Extra wachtwoord instellen</string>
@@ -768,7 +821,7 @@
     <string name="YourEmailInfo">Voeg je geldige e-mailadres toe. Het is de enige manier om je wachtwoord te herstellen.</string>
     <string name="YourEmailSkip">Overslaan</string>
     <string name="YourEmailSkipWarning">Waarschuwing</string>
-    <string name="YourEmailSkipWarningText">Let op:\n\nAls je je wachtwoord vergeet verlies je toegang tot je Telegram-account. Er is geen optie om dit te herstellen.</string>
+    <string name="YourEmailSkipWarningText">Let op:\n\nAls je je wachtwoord vergeet verlies je toegang tot je Deep Telegram-account. Er is geen optie om dit te herstellen.</string>
     <string name="YourEmailAlmostThere">Bijna klaar!</string>
     <string name="YourEmailAlmostThereText">Controleer je e-mail en klik op de bevestigingslink om de twee-staps-verificatie in te schakelen. Kijk voor de zekerheid ook in de ongewenste post.</string>
     <string name="YourPasswordSuccess">Gelukt!</string>
@@ -802,7 +855,7 @@
     <string name="PasswordRecovery">Wachtwoordherstel</string>
     <string name="PasswordCode">Code</string>
     <string name="PasswordReset">Wachtwoord uitgeschakeld</string>
-    <string name="EnabledPasswordText">Je hebt twee-staps-verificatie ingeschakeld.\nAls je inlogt op je Telegram-account heb je het ingestelde wachtwoord nodig.</string>
+    <string name="EnabledPasswordText">Je hebt twee-staps-verificatie ingeschakeld.\nAls je inlogt op je Deep Telegram-account heb je het ingestelde wachtwoord nodig.</string>
     <string name="PendingEmailText">Je herstel-e-mailadres %1$s is nog niet actief en in afwachting van bevestiging.</string>
     <!--privacy settings-->
     <string name="PrivacySettings">Privacy en veiligheid</string>
@@ -850,10 +903,8 @@
     <string name="CreateGroupError">Je kan geen groep maken met deze gebruikers vanwege de privacyinstellingen van deze gebruikers.</string>
     <!--edit video view-->
     <string name="EditVideo">Video bewerken</string>
-    <string name="OriginalVideo">Originele video</string>
-    <string name="EditedVideo">Bewerkte video</string>
     <string name="SendingVideo">Video versturen</string>
-    <string name="CompressVideo">Video comprimeren</string>
+    <string name="SendingGif">Gif versturen...</string>
     <!--bot-->
     <string name="Bot">bot</string>
     <string name="BotShare">Delen</string>
@@ -903,6 +954,10 @@
     <string name="ActionYouKickUser">Je hebt un2 verwijderd</string>
     <string name="ActionYouLeftUser">Je hebt de groep verlaten</string>
     <string name="ActionYouAddUser">Je hebt un2 toegevoegd</string>
+    <string name="ActionYouScored">Je hebt %1$s behaald</string>
+    <string name="ActionUserScored">un heeft %1$s behaald</string>
+    <string name="ActionYouScoredInGame">Je hebt met un2 %1$s behaald</string>
+    <string name="ActionUserScoredInGame">un1 heeft met un2 %1$s behaald</string>
     <string name="ActionYouRemovedPhoto">Je hebt de groepsafbeelding verwijderd</string>
     <string name="ActionYouChangedPhoto">Je hebt de groepsafbeelding gewijzigd</string>
     <string name="ActionYouChangedTitle">Je hebt de groepsnaam gewijzigd naar un2</string>
@@ -912,7 +967,7 @@
     <string name="ActionAddUserSelf">un1 is terug in de groep</string>
     <string name="ActionAddUserSelfMega">un1 is lid van de groep</string>
     <string name="ActionAddUserSelfYou">Je keerde terug naar de groep</string>
-    <string name="UnsupportedMedia">Dit bericht wordt niet ondersteund door jouw versie van Telegram. Werk Telegram bij om dit bericht te bekijken: https://telegram.org/update</string>
+    <string name="UnsupportedMedia">Dit bericht wordt niet ondersteund door jouw versie van Deep Telegram. Werk Deep Telegram bij om dit bericht te bekijken: https://telegram.org/update</string>
     <string name="AttachPhoto">Foto</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachGif">GIF</string>
@@ -921,11 +976,13 @@
     <string name="AttachDocument">Bestand</string>
     <string name="AttachSticker">Sticker</string>
     <string name="AttachAudio">Spraakbericht</string>
+    <string name="AttachGame">Spel</string>
     <string name="FromYou">Jij</string>
     <string name="ActionTakeScreenshootYou">Schermafdruk gemaakt!</string>
     <string name="ActionTakeScreenshoot">un1 heeft een schermafdruk gemaakt!</string>
     <!--Alert messages-->
     <string name="InvalidPhoneNumber">Ongeldig telefoonnummer</string>
+    <string name="BannedPhoneNumber">Geblokkeerd telefoonnumer</string>
     <string name="CodeExpired">Code verlopen. Log opnieuw in.</string>
     <string name="FloodWait">Te veel pogingen. Probeer het later opnieuw.</string>
     <string name="FloodWaitTime">Te veel pogingen, probeer het over %1$s opnieuw</string>
@@ -936,7 +993,7 @@
     <string name="NoPlayerInstalled">Je hebt geen mediaspeler. Installeer een mediaspeler om door te gaan.</string>
     <string name="NoMailInstalled">E-mail ons op sms@stel.com en vertel ons over je probleem.</string>
     <string name="NoHandleAppInstalled">Je hebt geen apps die bestandstype \'%1$s\' kunnen verwerken, gelieve een compatibele app te installeren</string>
-    <string name="InviteUser">Deze gebruiker heeft nog geen Telegram. Wil je een uitnodiging sturen?</string>
+    <string name="InviteUser">Deze gebruiker heeft nog geen Deep Telegram. Wil je een uitnodiging sturen?</string>
     <string name="AreYouSure">Weet je het zeker?</string>
     <string name="AddToTheGroupTitle">%1$s toevoegen aan de groep %2$s?</string>
     <string name="AddToTheGroupForwardCount">Aantal recente berichten om door te sturen:</string>
@@ -944,8 +1001,9 @@
     <string name="UserAlreadyInGroup">Gebruiker is al een groepslid</string>
     <string name="ForwardMessagesTo">Berichten doorsturen naar %1$s?</string>
     <string name="SendMessagesTo">Berichten naar %1$s versturen?</string>
+    <string name="SendGameTo">Spel delen met %1$s?</string>
     <string name="SendContactTo">Contact delen met %1$s?</string>
-    <string name="AreYouSureLogout">Weet je zeker dat je wilt uitloggen?\n\nTelegram kun je naadloos op al je apparaten tegelijkertijd gebruiken.\n\nLet op! Als je uitlogt worden al je geheime chats verwijderd.</string>
+    <string name="AreYouSureLogout">Weet je zeker dat je wilt uitloggen?\n\nDeep Telegram kun je naadloos op al je apparaten tegelijkertijd gebruiken.\n\nLet op! Als je uitlogt worden al je geheime chats verwijderd.</string>
     <string name="AreYouSureSessions">Alle apparaten behalve het huidige apparaat uitloggen?</string>
     <string name="AreYouSureDeleteAndExit">Verwijderen en de groep verlaten?</string>
     <string name="AreYouSureDeleteThisChat">Chat echt verwijderen?</string>
@@ -968,28 +1026,31 @@
     <string name="AreYouSureClearHistorySuper">Groepscache echt opschonen?</string>
     <string name="AreYouSureDeleteMessages">%1$s echt verwijderen?</string>
     <string name="SendMessagesToGroup">Berichten naar %1$s versturen?</string>
+    <string name="SendGameToGroup">Spel delen met %1$s?</string>
     <string name="SendContactToGroup">Contact delen met %1$s?</string>
     <string name="ForwardMessagesToGroup">Berichten doorsturen naar %1$s?</string>
     <string name="FeatureUnavailable">Sorry, deze functie is momenteel niet beschikbaar in jouw land.</string>
-    <string name="NoUsernameFound">Er is geen Telegram-account met deze gebruikersnaam.</string>
+    <string name="NoUsernameFound">Er is geen Deep Telegram-account met deze gebruikersnaam.</string>
     <string name="BotCantJoinGroups">Deze bot kan geen groepslid worden.</string>
     <string name="SecretLinkPreviewAlert">Wil je uitgebreide link-voorvertoning inschakelen voor geheime chats? Let op: deze worden gegenereerd op onze servers.</string>
     <string name="SecretChatContextBotAlert">Let op: inline-bots worden aangeboden door externe ontwikkelaars. Voor de werking van de bot worden de karakters die je na de botnaam typt naar deze ontwikkelaar verstuurd.</string>
     <string name="RaiseToSpeakAlert">Wil je \"Houd bij oor\" inschakelen voor spraakberichten?</string>
-    <string name="EditMessageError">Je mag dit bericht niet bewerken.</string>
+    <string name="EditMessageError">Je mag dit bericht niet wijzigen.</string>
     <string name="AllowReadSms">Sta het ontvangen van SMS toe zodat we automatisch je inlogcode kunnen invoeren.</string>
     <string name="AllowReadCall">Sta het ontvangen van oproepen toe zodat we automatisch je inlogcode kunnen invoeren.</string>
     <string name="AllowReadCallAndSms">Sta het ontvangen van oproepen en SMS toe zodat we automatisch je inlogcode kunnen invoeren.</string>
     <string name="UserRestricted">Je mag deze actie niet uitvoeren.</string>
+    <string name="JoinGroup">LID WORDEN</string>
     <!--permissions-->
-    <string name="PermissionContacts">Telegram heeft toegang tot je contacten nodig zodat je kan chatten met je vrienden vanaf al je apparaten.</string>
-    <string name="PermissionStorage">Telegram heeft toegang tot je opslaggeheugen nodig zodat je foto\'s, video\'s, muziek en andere media kunt opslaan en versturen.</string>
-    <string name="PermissionNoAudio">Telegram heeft toegang tot je microfoon nodig om spraakberichten te kunnen verzenden.</string>
-    <string name="PermissionNoLocation">Telegram heeft toegang tot je locatie nodig om deze te kunnen delen met je vrienden.</string>
-    <string name="PermissionNoLocationPosition">Telegram heeft toegang tot je locatie nodig.</string>
+    <string name="PermissionContacts">Deep Telegram heeft toegang tot je contacten nodig zodat je kan chatten met je vrienden vanaf al je apparaten.</string>
+    <string name="PermissionStorage">Deep Telegram heeft toegang tot je opslaggeheugen nodig zodat je foto\'s, video\'s, muziek en andere media kunt opslaan en versturen.</string>
+    <string name="PermissionNoAudio">Deep Telegram heeft toegang tot je microfoon nodig om spraakberichten te kunnen verzenden.</string>
+    <string name="PermissionNoCamera">Deep Telegram heeft toegang tot je camera nodig zodat je foto\'s en video\'s kunt maken.</string>
+    <string name="PermissionNoLocation">Deep Telegram heeft toegang tot je locatie nodig om deze te kunnen delen met je vrienden.</string>
+    <string name="PermissionNoLocationPosition">Deep Telegram heeft toegang tot je locatie nodig.</string>
     <string name="PermissionOpenSettings">INSTELLINGEN</string>
     <!--Intro view-->
-    <string name="Page1Title">Telegram</string>
+    <string name="Page1Title">Deep Telegram</string>
     <string name="Page2Title">Snel</string>
     <string name="Page3Title">Gratis</string>
     <string name="Page4Title">Veilig</string>
@@ -997,12 +1058,12 @@
     <string name="Page6Title">In de cloud</string>
     <string name="Page7Title">Privé</string>
     <string name="Page1Message">\'s Werelds <![CDATA[<b>snelste</b>]]> berichtendienst.<![CDATA[<br/>]]>Het is <![CDATA[<b>gratis</b>]]> en <![CDATA[<b>veilig</b>]]>.</string>
-    <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> bezorgt berichten sneller dan<![CDATA[<br/>]]>elke andere applicatie.</string>
-    <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> is altijd gratis. Geen advertenties.<![CDATA[<br/>]]>Geen abonnementskosten.</string>
-    <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> beveiligd je berichten<![CDATA[<br/>]]>tegen aanvallen van hackers.</string>
-    <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> beperkt je niet in de grootte van<![CDATA[<br/>]]>je media of chats.</string>
-    <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> biedt toegang tot je berichten<![CDATA[<br/>]]>vanaf meerdere apparaten.</string>
-    <string name="Page7Message"><![CDATA[<b>Telegram</b>]]> berichten zijn sterk versleuteld<![CDATA[<br/>]]>en kunnen zichzelf vernietigen.</string>
+    <string name="Page2Message"><![CDATA[<b>Deep Telegram</b>]]> bezorgt berichten sneller dan<![CDATA[<br/>]]>elke andere applicatie.</string>
+    <string name="Page3Message"><![CDATA[<b>Deep Telegram</b>]]> is altijd gratis. Geen advertenties.<![CDATA[<br/>]]>Geen abonnementskosten.</string>
+    <string name="Page4Message"><![CDATA[<b>Deep Telegram</b>]]> beveiligd je berichten<![CDATA[<br/>]]>tegen aanvallen van hackers.</string>
+    <string name="Page5Message"><![CDATA[<b>Deep Telegram</b>]]> beperkt je niet in de grootte van<![CDATA[<br/>]]>je media of chats.</string>
+    <string name="Page6Message"><![CDATA[<b>Deep Telegram</b>]]> biedt toegang tot je berichten<![CDATA[<br/>]]>vanaf meerdere apparaten.</string>
+    <string name="Page7Message"><![CDATA[<b>Deep Telegram</b>]]> berichten zijn sterk versleuteld<![CDATA[<br/>]]>en kunnen zichzelf vernietigen.</string>
     <string name="StartMessaging">Begin met chatten</string>
     <!--plural-->
     <string name="Online_zero">%1$d online</string>
@@ -1119,6 +1180,12 @@
     <string name="Photos_few">%1$d foto\'s</string>
     <string name="Photos_many">%1$d foto\'s</string>
     <string name="Photos_other">%1$d foto\'s</string>
+    <string name="Points_zero">%1$d punten</string>
+    <string name="Points_one">%1$d punt</string>
+    <string name="Points_two">%1$d punten</string>
+    <string name="Points_few">%1$d punten</string>
+    <string name="Points_many">%1$d punten</string>
+    <string name="Points_other">%1$d punten</string>
     <string name="LastSeenMinutes_zero">laatst gezien %1$d min geleden</string>
     <string name="LastSeenMinutes_one">laatst gezien %1$d minuut geleden</string>
     <string name="LastSeenMinutes_two">laatst gezien %1$d min geleden</string>
@@ -1131,6 +1198,30 @@
     <string name="LastSeenHours_few">laatst gezien %1$d uur geleden</string>
     <string name="LastSeenHours_many">laatst gezien %1$d uur geleden</string>
     <string name="LastSeenHours_other">laatst gezien %1$d uur geleden</string>
+    <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> seconden</string>
+    <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> seconde</string>
+    <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> seconden</string>
+    <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> seconden</string>
+    <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> seconden</string>
+    <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> seconden</string>
+    <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> minuten</string>
+    <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> minuut</string>
+    <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> minuten</string>
+    <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> minuten</string>
+    <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> minuten</string>
+    <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> minuten</string>
+    <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> uur</string>
+    <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> uur</string>
+    <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> uur</string>
+    <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> uur</string>
+    <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> uur</string>
+    <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> uur</string>
+    <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> dagen</string>
+    <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> dag</string>
+    <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> dag</string>
+    <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> dag</string>
+    <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> dag</string>
+    <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> dag</string>
     <!--forwarded messages-->
     <string name="ForwardedMessage_zero">Bijlage: %1$d berichten</string>
     <string name="ForwardedMessage_one">Bijlage: 1 bericht</string>

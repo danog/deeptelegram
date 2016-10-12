@@ -16,7 +16,6 @@
 package it.deeptelegram.messenger.exoplayer.hls;
 
 import it.deeptelegram.messenger.exoplayer.ParserException;
-
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 

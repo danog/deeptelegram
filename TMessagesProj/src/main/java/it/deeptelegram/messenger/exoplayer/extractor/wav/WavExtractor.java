@@ -25,7 +25,6 @@ import it.deeptelegram.messenger.exoplayer.extractor.PositionHolder;
 import it.deeptelegram.messenger.exoplayer.extractor.SeekMap;
 import it.deeptelegram.messenger.exoplayer.extractor.TrackOutput;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
-
 import java.io.IOException;
 
 /** {@link Extractor} to extract samples from a WAV byte stream. */

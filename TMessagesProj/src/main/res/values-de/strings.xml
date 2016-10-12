@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<!--Translation by iLLogical2007, DanielGroeger and everyone from https://github.com/DrKLO/Telegram/pull/129 whom I didn't notice -->
+<!--Translation by iLLogical2007, DanielGroeger and everyone from https://github.com/DrKLO/Deep Telegram/pull/129 whom I didn't notice -->
 
 <resources>
-    <string name="AppName">Telegram</string>
-    <string name="AppNameBeta">Telegram Beta</string>
+    <string name="AppName">Deep Telegram</string>
+    <string name="AppNameBeta">Deep Telegram Beta</string>
     <string name="LanguageName">Deutsch</string>
     <string name="LanguageNameInEnglish">German</string>
     <string name="LanguageCode">de</string>
@@ -16,8 +16,8 @@
     <!--code enter view-->
     <string name="YourCode">Nummer verifizieren</string>
     <string name="SentSmsCode">Wir haben dir eine SMS mit Aktivierungscode an <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> gesendet.</string>
-    <string name="SentAppCode">Code wurde dir per <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> an deine aktive App geschickt.</string>
-    <string name="SentCallCode">Wir rufen dich jetzt unter <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> an.  Bitte den Anruf nicht annehmen, Telegram kümmert sich um alles.</string>
+    <string name="SentAppCode">Code wurde dir per <![CDATA[<b>]]>Deep Telegram<![CDATA[</b>]]> an deine aktive App geschickt.</string>
+    <string name="SentCallCode">Wir rufen dich jetzt unter <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> an.  Bitte den Anruf nicht annehmen, Deep Telegram kümmert sich um alles.</string>
     <string name="SentCallOnly">Wir rufen <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>an, um dir einen Code zu diktieren.</string>
     <string name="CallText">Wir rufen dich an in %1$d:%2$02d</string>
     <string name="SmsText">Wir senden Dir eine SMS in %1$d:%2$02d</string>
@@ -25,6 +25,15 @@
     <string name="Code">Code</string>
     <string name="WrongNumber">Falsche Nummer?</string>
     <string name="DidNotGetTheCode">Code nicht erhalten?</string>
+    <string name="CancelAccountReset">Zurücksetzung abbrechen</string>
+    <string name="CancelAccountResetInfo">Jemand mit Zugang zu deiner Telefonnummer  <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> hat die Kontolöschung und Zurücksetzung der zweistufigen Bestätigung beantragt. Wenn du das nicht selbst gewesen bist, tippe den Code der SMS ein, den wir dir gerade gesendet haben.</string>
+    <string name="ResetAccount">Konto zurücksetzen</string>
+    <string name="ResetAccountInfo">Da dein Konto <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> aktiv und durch ein Kennwort geschützt ist, löschen wir es aus Sicherheitsgründen in einer Woche. Du kannst den Vorgang jederzeit abbrechen.</string>
+    <string name="ResetAccountStatus">Du kannst dein Konto zurücksetzen in:</string>
+    <string name="ResetAccountCancelledAlert">Deine vorherigen Versuche das Konto zurückzusetzen wurden durch den aktiven Nutzer abgebrochen. Bitte in 7 Tagen erneut probieren.</string>
+    <string name="ResetAccountButton">ZURÜCKSETZEN</string>
+    <string name="CancelLinkExpired">Link ist ungültig oder abgelaufen.</string>
+    <string name="CancelLinkSuccess">Löschvorgang für dein Konto %1$s wurde abgebrochen. Du kannst das Fenster nun schließen.</string>
     <!--signup view-->
     <string name="YourName">Dein Name</string>
     <string name="RegisterText">Gib deinen Vor- und Nachnamen ein</string>
@@ -51,12 +60,12 @@
     <string name="EncryptedChatStartedIncoming">Du bist dem geheimen Chat beigetreten.</string>
     <string name="ClearHistory">Verlauf löschen</string>
     <string name="ClearHistoryCache">Cache leeren</string>
-    <string name="DeleteChat">Löschen und beenden</string>
+    <string name="DeleteChat">Löschen und verlassen</string>
     <string name="DeleteChatUser">Chat löschen</string>
     <string name="HiddenName">Gelöschtes Konto</string>
     <string name="SelectChat">Chat auswählen</string>
     <string name="PhotoTip">Tippen und Halten</string>
-    <string name="CompatibilityChat">%1$s benutzt eine ältere Version von Telegram, sodass Bilder in Geheimen Chats im Kompatibilitätsmodus angezeigt werden.\n\nSobald %2$s Telegram aktualisiert, werden Bilder mit Timern von 1 Minute und kürzer per \"Tippen und Halten\" angezeigt. Du wirst benachrichtigt, sobald dein Chatpartner ein Bildschirmfoto macht.</string>
+    <string name="CompatibilityChat">%1$s benutzt eine ältere Version von Deep Telegram, sodass Bilder in Geheimen Chats im Kompatibilitätsmodus angezeigt werden.\n\nSobald %2$s Deep Telegram aktualisiert, werden Bilder mit Timern von 1 Minute und kürzer per \"Tippen und Halten\" angezeigt. Du wirst benachrichtigt, sobald dein Chatpartner ein Bildschirmfoto macht.</string>
     <string name="SearchMessages">NACHRICHTEN</string>
     <string name="Search">Suche</string>
     <string name="MuteNotifications">Stummschalten</string>
@@ -101,6 +110,7 @@
     <string name="ActionPinnedSticker">un1 hat einen Sticker angeheftet</string>
     <string name="ActionPinnedVoice">un1 hat eine Sprachnachricht angeheftet</string>
     <string name="ActionPinnedContact">un1 hat einen Kontakt angeheftet</string>
+    <string name="ActionPinnedGame">un1 hat ein %1$s angeheftet</string>
     <string name="ActionPinnedGeo">un1 hat einen Standort angeheftet</string>
     <string name="ActionPinnedGif">un1 hat ein GIF angeheftet</string>
     <string name="ActionPinnedMusic">un1 hat ein Musikstück angeheftet</string>
@@ -110,10 +120,10 @@
     <string name="NewChannel">Neuer Kanal</string>
     <string name="EnterChannelName">Kanalname</string>
     <string name="AddMutual">Kontakte zum Kanal hinzufügen</string>
-    <string name="ChannelUsernameHelp">Jeder kann diesen Link teilen und deinen Kanal in der Telegramsuche finden.</string>
-    <string name="MegaUsernameHelp">Jeder kann diesen Link teilen und deine Gruppe in der Telegramsuche finden.</string>
+    <string name="ChannelUsernameHelp">Jeder kann diesen Link teilen und deinen Kanal in der Deep Telegramsuche finden.</string>
+    <string name="MegaUsernameHelp">Jeder kann diesen Link teilen und deine Gruppe in der Deep Telegramsuche finden.</string>
     <string name="ChannelUsernamePlaceholder">Link</string>
-    <string name="ChannelPrivateLinkHelp">Alle Telegramnutzer können mit diesem Link deinem Kanal beitreten, du kannst ihn aber jederzeit widerrufen.</string>
+    <string name="ChannelPrivateLinkHelp">Alle Deep Telegramnutzer können mit diesem Link deinem Kanal beitreten, du kannst ihn aber jederzeit widerrufen.</string>
     <string name="MegaPrivateLinkHelp">Alle können mit diesem Link deiner Gruppe beitreten, du kannst ihn aber jederzeit widerrufen.</string>
     <string name="DescriptionOptionalPlaceholder">Beschreibung (optional)</string>
     <string name="DescriptionPlaceholder">Beschreibung</string>
@@ -163,8 +173,7 @@
     <string name="ActionChannelChangedPhoto">Bild geändert</string>
     <string name="ActionChannelRemovedPhoto">Bild gelöscht</string>
     <string name="ActionChannelChangedTitle">Kanalname zu un2 geändert</string>
-    <string name="ChannelPublicLimitReached">Du hast zu viele öffentliche Kanäle erstellt. Du kannst entweder einen privaten Kanal erstellen oder einen bestehenden Kanal löschen.</string>
-    <string name="ChangePublicLimitReached">Du hast zu viele öffentliche Links erstellt. Lösche bitte welche oder stelle einige auf privat um.</string>
+    <string name="ChangePublicLimitReached">Du hast leider zu viele öffentliche Benutzernamen erstellt. Du kannst jederzeit den Link einer älteren Gruppe oder eines Kanals entfernen.</string>
     <string name="ChannelModerator">Moderator</string>
     <string name="ChannelCreator">Gründer</string>
     <string name="ChannelEditor">Administrator</string>
@@ -176,7 +185,7 @@
     <string name="ChannelRemoveUserAdmin">Entfernen</string>
     <string name="ChannelMembersInfo">Nur Administratoren sehen diese Liste.</string>
     <string name="ChannelAdminNotParticipant">Dieser Nutzer ist noch nicht im Kanal; willst du ihn einladen?</string>
-    <string name="ChannelLinkInfo">Jeder, der Telegram installiert hat, kann anhand dieses Links in deinen Kanal.</string>
+    <string name="ChannelLinkInfo">Jeder, der Deep Telegram installiert hat, kann anhand dieses Links in deinen Kanal.</string>
     <string name="ChannelAdminsInfo">Administratoren helfen dir, deinen Kanal zu verwalten. Tippen und halten um sie zu löschen.</string>
     <string name="ChannelJoinTo">Möchtest du dem Kanal \'%1$s\' beitreten?</string>
     <string name="ChannelCantOpenPrivate">Dieser Chat ist nicht mehr zugänglich.</string>
@@ -265,7 +274,7 @@
     <string name="SendingPhoto">schickt Bild...</string>
     <string name="SendingVideoStatus">schickt Video...</string>
     <string name="SendingFile">schickt Datei...</string>
-    <string name="GotAQuestion">Hast du eine Frage\nzu Telegram?</string>
+    <string name="GotAQuestion">Hast du eine Frage\nzu Deep Telegram?</string>
     <string name="ChatTakePhoto">Bild aufnehmen</string>
     <string name="ChatGallery">Galerie</string>
     <string name="ChatLocation">Standort</string>
@@ -303,9 +312,11 @@
     <string name="ServiceNotifications">Servicemeldungen</string>
     <string name="GettingLinkInfo">Lade Linkvorschau...</string>
     <string name="OpenInBrowser">ÖFFNEN MIT...</string>
+    <string name="OpenInExternalApp">Öffnen in...</string>
     <string name="CopyUrl">URL kopieren</string>
     <string name="SendItems">%1$s senden</string>
     <string name="OpenUrlAlert">URL %1$s öffnen?</string>
+    <string name="BotPermissionGameAlert">Darf %1$s deinen Anzeigenamen und deine id (nicht deine Telefonnummer) mit Internetseiten teilen, die du mit diesem Bot öffnest?</string>
     <string name="ReportSpam">SPAM MELDEN</string>
     <string name="ReportSpamAndLeave">SPAM MELDEN UND VERLASSEN</string>
     <string name="AddContactChat">KONTAKT HINZUFÜGEN</string>
@@ -340,6 +351,13 @@
     <string name="TimeToEditExpired">Bearbeitungszeit leider abgelaufen.</string>
     <string name="AddShortcut">Verknüpfung hinzufügen</string>
     <string name="ShortcutAdded">Zum Startbildschirm hinzugefügt</string>
+    <string name="ChatYourSelf">chatte mit dir selbst</string>
+    <string name="ChatYourSelfName">Du</string>
+    <string name="ChatYourSelfDescription1">Speichere deine Lieblings-Chats</string>
+    <string name="ChatYourSelfDescription2">Sende Dateien jeglicher Art</string>
+    <string name="ChatYourSelfDescription3">Synchronisiert auf allen Geräten</string>
+    <string name="ChatYourSelfDescription4">Cloud-basierte Suchfunktion</string>
+    <string name="ChatYourSelfTitle">Dein Cloud-Speicher</string>
     <!--notification-->
     <string name="MessageLifetimeChanged">%1$s hat den Selbstzerstörungs-Timer auf %2$s gesetzt</string>
     <string name="MessageLifetimeChangedOutgoing">Du hast den Selbstzerstörungs-Timer auf %1$s gesetzt</string>
@@ -352,6 +370,7 @@
     <string name="NotificationMessageVideo">%1$s hat dir ein Video gesendet</string>
     <string name="NotificationMessageContact">%1$s hat dir einen Kontakt gesendet</string>
     <string name="NotificationMessageMap">%1$s hat dir einen Standort gesendet</string>
+    <string name="NotificationMessageGame">%1$s hat dich eingeladen, %2$s zu spielen</string>
     <string name="NotificationMessageDocument">%1$s hat dir eine Datei gesendet</string>
     <string name="NotificationMessageGif">%1$s hat dir ein GIF gesendet</string>
     <string name="NotificationMessageAudio">%1$s hat dir eine Sprachnachricht gesendet</string>
@@ -364,6 +383,7 @@
     <string name="NotificationMessageGroupVideo">%1$s hat ein Video an die Gruppe %2$s gesendet</string>
     <string name="NotificationMessageGroupContact">%1$s hat einen Kontakt an die Gruppe %2$s gesendet</string>
     <string name="NotificationMessageGroupMap">%1$s hat einen Standort an die Gruppe %2$s gesendet</string>
+    <string name="NotificationMessageGroupGame">%1$s hat die Gruppe %2$s eingeladen, %3$s zu spielen.</string>
     <string name="NotificationMessageGroupDocument">%1$s hat eine Datei an die Gruppe %2$s gesendet</string>
     <string name="NotificationMessageGroupGif">%1$s hat ein GIF an die Gruppe %2$s gesendet</string>
     <string name="NotificationMessageGroupAudio">%1$s hat eine Sprachnachricht an die Gruppe %2$s gesendet</string>
@@ -379,8 +399,8 @@
     <string name="NotificationGroupKickMember">%1$s hat %3$s aus der Gruppe %2$s entfernt</string>
     <string name="NotificationGroupKickYou">%1$s hat dich aus der Gruppe %2$s entfernt</string>
     <string name="NotificationGroupLeftMember">%1$s hat die Gruppe %2$s verlassen</string>
-    <string name="NotificationContactJoined">%1$s benutzt jetzt Telegram!</string>
-    <string name="NotificationUnrecognizedDevice">%1$s,\nWir haben eine Anmeldung von einem neuen Gerät am %2$s festgestellt.\n\nGerät: %3$s\nStandort: %4$s\n\nWenn du das nicht selbst gewesen bist, melde die entsprechende Sitzung in den Telegram Einstellungen unter Privatsphäre und Sicherheit - Sitzungen unverzüglich ab.\n\nKennst du schon unsere zweistufige Bestätigung? Diese kannst du in den Telegram Einstellungen unter Privatsphäre und Sicherheit optional aktivieren.\n\nDein Telegram Team</string>
+    <string name="NotificationContactJoined">%1$s benutzt jetzt Deep Telegram!</string>
+    <string name="NotificationUnrecognizedDevice">%1$s,\nWir haben eine Anmeldung von einem neuen Gerät am %2$s festgestellt.\n\nGerät: %3$s\nStandort: %4$s\n\nWenn du das nicht selbst gewesen bist, melde die entsprechende Sitzung in den Deep Telegram Einstellungen unter Privatsphäre und Sicherheit - Sitzungen unverzüglich ab.\n\nKennst du schon unsere zweistufige Bestätigung? Diese kannst du in den Deep Telegram Einstellungen unter Privatsphäre und Sicherheit optional aktivieren.\n\nDein Deep Telegram Team</string>
     <string name="NotificationContactNewPhoto">%1$s hat das Profilbild geändert</string>
     <string name="NotificationInvitedToGroupByLink">%1$s ist per Einladungslink der Gruppe %2$s beigetreten</string>
     <string name="Reply">Antworten</string>
@@ -390,6 +410,7 @@
     <string name="NotificationActionPinnedText">%1$s hat \"%2$s\" in der Gruppe %3$s angeheftet</string>
     <string name="NotificationActionPinnedNoText">%1$s hat eine Nachricht in der der Gruppe %2$s angeheftet</string>
     <string name="NotificationActionPinnedPhoto">%1$s hat ein Bild in der Gruppe %2$s angeheftet</string>
+    <string name="NotificationActionPinnedGame">%1$s hat ein Spiel in der Gruppe %2$s angeheftet</string>
     <string name="NotificationActionPinnedVideo">%1$s hat ein Video in der Gruppe %2$s angeheftet</string>
     <string name="NotificationActionPinnedFile">%1$s hat eine Datei in der Gruppe %2$s angeheftet</string>
     <string name="NotificationActionPinnedSticker">%1$s hat einen Sticker in der Gruppe %2$s angeheftet</string>
@@ -411,10 +432,11 @@
     <string name="NotificationActionPinnedGeoChannel">%1$s hat einen Stamdort angeheftet</string>
     <string name="NotificationActionPinnedGifChannel">%1$s hat ein GIF angeheftet</string>
     <string name="NotificationActionPinnedMusicChannel">%1$s hat ein Musikstück angeheftet</string>
+    <string name="NotificationActionPinnedGameChannel">%1$s hat ein Spiel angeheftet</string>
     <!--contacts view-->
     <string name="SelectContact">Kontakt auswählen</string>
     <string name="NoContacts">Noch keine Kontakte</string>
-    <string name="InviteText">Hey, komm auch zu Telegram: https://telegram.org/dl</string>
+    <string name="InviteText">Hey, komm auch zu Deep Telegram: https://telegram.org/dl</string>
     <string name="TodayAt">um</string>
     <string name="YesterdayAt">gestern um</string>
     <string name="Online">online</string>
@@ -444,9 +466,11 @@
     <string name="RevokeAlertNewLink">Der vorige Link ist nun inaktiv. Ein neuer Einladungslink wurde gerade erstellt.</string>
     <string name="RevokeButton">Widerrufen</string>
     <string name="RevokeLink">Link widerrufen</string>
+    <string name="RevokeLinkAlert">Bist du sicher, dass du den Link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> widerrufen willst?\n\nDie Gruppe \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" wird dann privat.</string>
+    <string name="RevokeLinkAlertChannel">Bist du sicher, dass du den Link <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> widerrufen willst?\n\nDer Kanal \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" wird dann privat.</string>
     <string name="CopyLink">Link kopieren</string>
     <string name="ShareLink">Link teilen</string>
-    <string name="LinkInfo">Jeder, der Telegram installiert hat, kann anhand dieses Links in deine Gruppe.</string>
+    <string name="LinkInfo">Jeder, der Deep Telegram installiert hat, kann anhand dieses Links in deine Gruppe.</string>
     <!--set admins view-->
     <string name="SetAdminsTitle">Administratoren</string>
     <string name="SetAdminsAll">Alle Mitglieder sind Admins</string>
@@ -465,13 +489,15 @@
     <string name="ConvertGroupMenu">In Supergruppe ändern</string>
     <string name="ConvertGroupAlertWarning">Warnung</string>
     <string name="ConvertGroupAlert">Du kannst die Supergruppe nicht mehr in eine normale Gruppe ändern.</string>
-    <string name="ConvertGroupInfo"><![CDATA[<b>]]>Gruppenlimit erreicht.<![CDATA[</b>]]>\n\nFür weitere Funktionen und um das Limit aufzuheben in Supergruppe ändern:\n\n• Bis zu %1$s sind nun möglich\n• Neue Mitglieder sehen gesamten Verlauf\n• Gelöschte Nachrichten werden bei allen Mitgliedern entfernt\n•Gruppenersteller kann die Gruppe öffentlich machen</string>
-    <string name="ConvertGroupInfo2"><![CDATA[<b>]]>In Supergruppen:<![CDATA[</b>]]>\n\n• Neue Mitglieder sehen gesamten Verlauf\n• Nachrichten werden bei allen gelöscht\n• Gründer kann Gruppe öffentlich machen</string>
+    <string name="ConvertGroupInfo"><![CDATA[<b>]]>Gruppenlimit erreicht.<![CDATA[</b>]]>\n\nFür weitere Funktionen und um das Limit aufzuheben in Supergruppe ändern:\n\n• Bis zu %1$s sind nun möglich\n• Neue Mitglieder sehen gesamten Verlauf\n• Gelöschte Nachrichten werden bei allen Mitgliedern entfernt\n• Admins können Nachrichten anheften\n• Gruppenersteller kann die Gruppe öffentlich machen</string>
+    <string name="ConvertGroupInfo2"><![CDATA[<b>]]>In Supergruppen:<![CDATA[</b>]]>\n\n• Neue Mitglieder sehen gesamten Verlauf\n• Nachrichten werden bei allen gelöscht\n• Admins können Nachrichten anheften\n• Gründer kann Gruppe öffentlich machen</string>
     <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Wichtig:<![CDATA[</b>]]> Die Änderung kann nicht rückgängig gemacht werden.</string>
     <!--contact info view-->
     <string name="ShareContact">Teilen</string>
     <string name="AddContact">Hinzufügen</string>
     <string name="AddContactTitle">Kontakt hinzufügen</string>
+    <string name="ContactNotRegistered">%1$s ist noch nicht bei Deep Telegram. Willst du diesen Nutzer einladen?</string>
+    <string name="Invite">Einladen</string>
     <string name="BlockContact">Blockieren</string>
     <string name="EditContact">Bearbeiten</string>
     <string name="DeleteContact">Löschen</string>
@@ -498,27 +524,43 @@
     <string name="UsernameInvalidShort">Ein Benutzername benötigt mindestens 5 Zeichen.</string>
     <string name="UsernameInvalidLong">Ein Benutzername darf maximal 32 Zeichen haben.</string>
     <string name="UsernameInvalidStartNumber">Benutzernamen dürfen leider nicht mit einer Zahl anfangen.</string>
-    <string name="UsernameHelp">Wähle einen öffentlichen Benutzernamen, wenn du von anderen bei <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> gefunden werden willst — ohne, dass sie deine Nummer kennen müssen.<![CDATA[<br><br>]]>Erlaubt sind <![CDATA[<b>]]>a-z<![CDATA[</b>]]>, <![CDATA[<b>]]>0-9<![CDATA[</b>]]> und Unterstriche. Die Mindestlänge beträgt <![CDATA[<b>]]>5<![CDATA[</b>]]> Zeichen.</string>
+    <string name="UsernameHelp">Wähle einen öffentlichen Benutzernamen, wenn du von anderen bei <![CDATA[<b>]]>Deep Telegram<![CDATA[</b>]]> gefunden werden willst — ohne, dass sie deine Nummer kennen müssen.<![CDATA[<br><br>]]>Erlaubt sind <![CDATA[<b>]]>a-z<![CDATA[</b>]]>, <![CDATA[<b>]]>0-9<![CDATA[</b>]]> und Unterstriche. Die Mindestlänge beträgt <![CDATA[<b>]]>5<![CDATA[</b>]]> Zeichen.</string>
     <string name="UsernameChecking">Prüfe Benutzername...</string>
     <string name="UsernameAvailable">%1$s ist verfügbar.</string>
     <string name="UsernameEmpty">Keiner</string>
     <string name="ErrorOccurred">Es ist ein Fehler aufgetreten.</string>
     <!--stickers view-->
     <string name="Stickers">Sticker</string>
-    <string name="StickersInfo">Künstler können eigene Sticker-Pakete über unseren Sticker Bot (@stickers) einstellen.\n\nNutzer fügen neue Sticker durch Antippen eines Stickers und dann \"Hinzufügen\" hinzu.</string>
     <string name="AddStickers">Sticker hinzufügen</string>
+    <string name="AddMasks">Masken hinzufügen</string>
     <string name="AddToStickers">Sticker hinzufügen</string>
+    <string name="AddToMasks">Masken hinzufügen</string>
     <string name="AddStickersNotFound">Sticker nicht gefunden</string>
     <string name="StickersRemoved">Sticker entfernt</string>
+    <string name="MasksRemoved">Masken entfernt</string>
     <string name="AddStickersInstalled">Neue Sticker hinzugefügt</string>
-    <string name="StickersHide">Verstecken</string>
-    <string name="StickersShow">Zeigen</string>
+    <string name="AddMasksInstalled">Neue Masken hinzugefügt</string>
+    <string name="StickersHide">Archivieren</string>
     <string name="StickersShare">Teilen</string>
     <string name="StickersCopy">Link kopieren</string>
     <string name="StickersRemove">Entfernen</string>
     <string name="NoStickers">Noch keine Sticker</string>
+    <string name="NoMasks">Noch keine Masken</string>
+    <string name="Masks">Masken</string>
+    <string name="MasksInfo">Masken lassen sich Bildern hinzufügen. Öffne dazu vor dem Versand einfach den Editor.</string>
+    <string name="FeaturedStickers">Angesagte Sticker</string>
+    <string name="FeaturedStickersInfo">Diese Sticker sind gerade auf Deep Telegram angesagt. Du kannst eigene Sticker über den @stickers Bot hinzufügen.</string>
+    <string name="ArchivedStickers">Archivierte Sticker</string>
+    <string name="ArchivedMasks">Archivierte Masken</string>
+    <string name="ArchivedStickersEmpty">Keine archivierten Sticker</string>
+    <string name="ArchivedMasksEmpty">Keine archivierten Masken</string>
+    <string name="ArchivedStickersInfo">Bis zu 200 Sticker-Pakete kannst du installieren. Alle folgenden werden archiviert.</string>
+    <string name="ArchivedMasksInfo">Bis zu 200 Masken-Pakete kannst du installieren. Unbenutzte werden archiviert, sobald du neue installierst.</string>
     <string name="SendSticker">STICKER SENDEN</string>
-    <string name="TooMuchStickersets">Leider hast du die maximale Anzahl an Stickerpaketen erreicht.</string>
+    <string name="ArchivedStickersAlertTitle">Archivierte Sticker</string>
+    <string name="ArchivedStickersAlertInfo">Einige deiner Sticker wurden archiviert. Du kannst sie in den Sticker-Einstellungen erneut hinzufügen.</string>
+    <string name="ArchivedMasksAlertTitle">Archivierte Masken</string>
+    <string name="ArchivedMasksAlertInfo">Einige deiner Masken wurden archiviert. Du kannst sie in den Masken-Einstellungen erneut hinzufügen.</string>
     <!--settings view-->
     <string name="ResetNotificationsText">Alle Einstellungen für Mitteilungen zurücksetzen</string>
     <string name="TextSize">Textgröße für Nachrichten</string>
@@ -552,10 +594,10 @@
     <string name="SendByEnter">Mit Enter senden</string>
     <string name="TerminateAllSessions">Alle anderen Geräte abmelden</string>
     <string name="Events">Ereignisse</string>
-    <string name="ContactJoined">Kontakt ist Telegram beigetreten</string>
+    <string name="ContactJoined">Kontakt ist Deep Telegram beigetreten</string>
     <string name="PinnedMessages">Angeheftete Nachrichten</string>
     <string name="Language">Sprache</string>
-    <string name="AskAQuestionInfo">Bedenke bitte, dass der Telegram Support von ehrenamtlichen Helfern betreut wird. Wir versuchen so schnell wie möglich zu antworten, dies kann jedoch manchmal ein bisschen dauern.<![CDATA[<br><br>]]>Bitte schau auch in den <![CDATA[<a href=\"https://telegram.org/faq/de\">Fragen und Antworten </a>]]> nach. Dort findest du Antworten auf die meisten Fragen und wichtige Tipps zur <![CDATA[<a href=\"https://telegram.org/faq/de#problembehandlung\">Problembehandlung</a>]]>.</string>
+    <string name="AskAQuestionInfo">Bedenke bitte, dass der Deep Telegram Support von ehrenamtlichen Helfern betreut wird. Wir versuchen so schnell wie möglich zu antworten, dies kann jedoch manchmal ein bisschen dauern.<![CDATA[<br><br>]]>Bitte schau auch in den <![CDATA[<a href=\"https://telegram.org/faq/de\">Fragen und Antworten </a>]]> nach. Dort findest du Antworten auf die meisten Fragen und wichtige Tipps zur <![CDATA[<a href=\"https://telegram.org/faq/de#problembehandlung\">Problembehandlung</a>]]>.</string>
     <string name="AskButton">Eine Frage stellen</string>
     <string name="TelegramFaq">Fragen und Antworten</string>
     <string name="TelegramFaqUrl">https://telegram.org/faq/de</string>
@@ -568,7 +610,7 @@
     <string name="NotificationsService">Keep-Alive-Dienst</string>
     <string name="NotificationsServiceInfo">Sofern die App beendet wurde, diese automatisch neu starten, um Benachrichtigungen zu gewährleisten.</string>
     <string name="NotificationsServiceConnection">Hintergrundverbindung</string>
-    <string name="NotificationsServiceConnectionInfo">Nutzt eine batterieschonende Hintergrundverbindung zu Telegram, um Benachrichtigungen zu gewährleisten.</string>
+    <string name="NotificationsServiceConnectionInfo">Nutzt eine batterieschonende Hintergrundverbindung zu Deep Telegram, um Benachrichtigungen zu gewährleisten.</string>
     <string name="SortBy">sortiert nach</string>
     <string name="ImportContacts">Kontakte importieren</string>
     <string name="SortFirstName">Vorname</string>
@@ -583,7 +625,7 @@
     <string name="Short">Kurz</string>
     <string name="Long">Lang</string>
     <string name="SystemDefault">Systemvorgabe</string>
-    <string name="SettingsDefault">Telegramvorgabe</string>
+    <string name="SettingsDefault">Deep Telegramvorgabe</string>
     <string name="AutomaticMediaDownload">Automatischer Mediendownload</string>
     <string name="WhenUsingMobileData">Über Mobilfunk</string>
     <string name="WhenConnectedOnWiFi">Über W-LAN</string>
@@ -600,12 +642,12 @@
     <string name="NotificationsPriorityMax">Max.</string>
     <string name="RepeatNotificationsNever">Niemals</string>
     <string name="RepeatNotifications">Erneut benachrichtigen</string>
-    <string name="PhoneNumberHelp">Du kannst deine Telefonnummer hier ändern. Dein Konto und alle Daten in der Telegram-Cloud, also Nachrichten, Medien, Kontakte, etc. werden auf das neue Konto übertragen.\n\n<![CDATA[<b>Wichtig:</b>]]> Alle deine Kontakte erhalten deine  <![CDATA[<b>neue Nummer</b>]]> ihrem Telefonbuch hinzugefügt, sofern sie deine alte Nummer gespeichert hatten und du sie nicht blockiert hattest.</string>
+    <string name="PhoneNumberHelp">Du kannst deine Telefonnummer hier ändern. Dein Konto und alle Daten in der Deep Telegram-Cloud, also Nachrichten, Medien, Kontakte, etc. werden auf das neue Konto übertragen.\n\n<![CDATA[<b>Wichtig:</b>]]> Alle deine Kontakte erhalten deine  <![CDATA[<b>neue Nummer</b>]]> ihrem Telefonbuch hinzugefügt, sofern sie deine alte Nummer gespeichert hatten und du sie nicht blockiert hattest.</string>
     <string name="PhoneNumberAlert">Deinen Kontakten wird deine neue Nummer ihrem Telefonbuch hinzugefügt, sofern sie deine alte Nummer gespeichert hatten und du sie nicht blockiert hattest.</string>
     <string name="PhoneNumberChange">NUMMER ÄNDERN</string>
     <string name="ChangePhoneNewNumber">Neue Nummer</string>
     <string name="ChangePhoneHelp">Der Bestätigungscode kommt per SMS an deine neue Nummer.</string>
-    <string name="ChangePhoneNumberOccupied">Die Telefonnummer %1$s ist bereits ein Telegram Konto. Bitte lösche es, bevor du mit der Übertragung auf das neue Konto startest.</string>
+    <string name="ChangePhoneNumberOccupied">Die Telefonnummer %1$s ist bereits ein Deep Telegram Konto. Bitte lösche es, bevor du mit der Übertragung auf das neue Konto startest.</string>
     <string name="NotificationsOther">Sonstige</string>
     <string name="NotificationsDisabled">Deaktiviert</string>
     <string name="VibrationDisabled">Deaktiviert</string>
@@ -627,6 +669,9 @@
     <string name="ChromeCustomTabsInfo">Externe Links innerhalb der App öffnen</string>
     <string name="DirectShare">Direktes Teilen</string>
     <string name="DirectShareInfo">Letzte Chats im Teilen-Menü anzeigen</string>
+    <string name="Emoji">Emoji</string>
+    <string name="EmojiBigSize">Draw single big emoji</string>
+    <string name="EmojiUseDefault">Use system default emoji</string>
     <!--cache view-->
     <string name="CacheSettings">Cache-Einstellungen</string>
     <string name="LocalDatabase">Lokale Datenbank</string>
@@ -643,13 +688,13 @@
     <string name="LocalCache">Sonstige Dateien</string>
     <string name="CacheEmpty">Leer</string>
     <string name="KeepMedia">Medien behalten</string>
-    <string name="KeepMediaInfo">Bilder, Videos und andere Dateien, auf die du während dieser Zeit <![CDATA[<b>nicht zugegriffen</b>]]> hast, werden von diesem Gerät gelöscht, um Speicherplatz zu sparen.\n\nAlle Medien bleiben in der Telegram Cloud gespeichert und können jederzeit wieder heruntergeladen werden.</string>
+    <string name="KeepMediaInfo">Bilder, Videos und andere Dateien, auf die du während dieser Zeit <![CDATA[<b>nicht zugegriffen</b>]]> hast, werden von diesem Gerät gelöscht, um Speicherplatz zu sparen.\n\nAlle Medien bleiben in der Deep Telegram Cloud gespeichert und können jederzeit wieder heruntergeladen werden.</string>
     <string name="KeepMediaForever">Dauerhaft</string>
     <!--sessions view-->
     <string name="SessionsTitle">Sitzungen</string>
     <string name="CurrentSession">Aktuelles Gerät</string>
     <string name="NoOtherSessions">Keine anderen Geräte</string>
-    <string name="NoOtherSessionsInfo">Du kannst dich von jedem Handy, Tablet und Computer bei Telegram mit derselben Telefonnummer anmelden. Alles wird immer sofort synchronisiert.</string>
+    <string name="NoOtherSessionsInfo">Du kannst dich von jedem Handy, Tablet und Computer bei Deep Telegram mit derselben Telefonnummer anmelden. Alles wird immer sofort synchronisiert.</string>
     <string name="OtherSessions">Andere Geräte</string>
     <string name="SessionsInfo">Überprüfe alle deine angemeldeten Geräte.</string>
     <string name="TerminateSessionInfo">Tippe auf eine Sitzung um sie zu beenden.</string>
@@ -658,7 +703,7 @@
     <!--passcode view-->
     <string name="Passcode">Pincode-Sperre</string>
     <string name="ChangePasscode">Pincode ändern</string>
-    <string name="ChangePasscodeInfo">Wenn du die Code-Sperre aktivierst, erscheint ein Schloss ganz oben über der Chatliste. Tippe auf das Schloss, um deine Chats zu sperren und zu entsperren.\n\nÜbrigens: Wenn du den Pincode vergisst, musst du Telegram löschen und neu installieren. Dadurch verlierst du alle Geheimen Chats.</string>
+    <string name="ChangePasscodeInfo">Wenn du die Code-Sperre aktivierst, erscheint ein Schloss ganz oben über der Chatliste. Tippe auf das Schloss, um deine Chats zu sperren und zu entsperren.\n\nÜbrigens: Wenn du den Pincode vergisst, musst du Deep Telegram löschen und neu installieren. Dadurch verlierst du alle Geheimen Chats.</string>
     <string name="ChangePasscodeAlert">Du wirst nun ein Schloss über der Chatliste sehen. Tippe darauf um deine Chats mit dem neuen Pincode zu sperren.</string>
     <string name="PasscodePIN">Pincode</string>
     <string name="PasscodePassword">Kennwort</string>
@@ -754,6 +799,14 @@
     <string name="PhotoCaption">Bildbeschriftung</string>
     <string name="VideoCaption">Videobeschriftung</string>
     <string name="Caption">Beschriftung</string>
+    <string name="PaintDraw">Zeichnen</string>
+    <string name="PaintStickers">Sticker</string>
+    <string name="PaintText">Text</string>
+    <string name="PaintDelete">Löschen</string>
+    <string name="PaintEdit">Bearbeiten</string>
+    <string name="PaintDuplicate">Klonen</string>
+    <string name="PaintOutlined">Kontur</string>
+    <string name="PaintRegular">Normal</string>
     <!--password view-->
     <string name="TwoStepVerification">Zweistufige Bestätigung</string>
     <string name="SetAdditionalPassword">Zusätzliches Kennwort festlegen</string>
@@ -768,7 +821,7 @@
     <string name="YourEmailInfo">Falls du dein Kennwort vergisst, benötigen wir deine richtige Email Adresse.</string>
     <string name="YourEmailSkip">Überspringen</string>
     <string name="YourEmailSkipWarning">Warnung</string>
-    <string name="YourEmailSkipWarningText">Keine gute Idee.\n\nWenn du dein Passwort vergisst, verlierst du den Zugang zu deinem Telegram Konto. Für immer, ohne Ausnahme.</string>
+    <string name="YourEmailSkipWarningText">Keine gute Idee.\n\nWenn du dein Passwort vergisst, verlierst du den Zugang zu deinem Deep Telegram Konto. Für immer, ohne Ausnahme.</string>
     <string name="YourEmailAlmostThere">Fast geschafft!</string>
     <string name="YourEmailAlmostThereText">Bitte überprüfe deine Mails (auch den Spam-Ordner) um die zweistufige Bestätigung abzuschließen.</string>
     <string name="YourPasswordSuccess">Geschafft!</string>
@@ -786,11 +839,11 @@
     <string name="PasswordAsHintError">Der Hinweis darf nicht das Kennwort sein.</string>
     <string name="PasswordEmailInvalid">Ungültige E-Mail</string>
     <string name="RestorePasswordNoEmailTitle">Tut uns leid</string>
-    <string name="RestorePasswordNoEmailText">Da du für diesen Fall keine Email Adresse hinterlegt hast, kannst du nur noch hoffen, dass dir dein Kennwort wieder einfällt oder du musst dein Telegram Konto zurückzusetzen.</string>
+    <string name="RestorePasswordNoEmailText">Da du für diesen Fall keine Email Adresse hinterlegt hast, kannst du nur noch hoffen, dass dir dein Kennwort wieder einfällt oder du musst dein Deep Telegram Konto zurückzusetzen.</string>
     <string name="RestoreEmailSent">Wir haben den Wiederherstellungscode an diese Adresse geschickt:\n\n%1$s</string>
     <string name="RestoreEmailSentInfo">Überprüfe deine Mails und gib den 6-stelligen Code aus userer Email ein.</string>
     <string name="RestoreEmailTrouble">Du hast keinen Zugang zu deiner Adresse %1$s?</string>
-    <string name="RestoreEmailTroubleText">Wenn du nicht in deine Emails kommst, kannst du nur hoffen, dass dir dein Kennwort wieder einfällt oder du musst dein Telegram Konto zurückzusetzen.</string>
+    <string name="RestoreEmailTroubleText">Wenn du nicht in deine Emails kommst, kannst du nur hoffen, dass dir dein Kennwort wieder einfällt oder du musst dein Deep Telegram Konto zurückzusetzen.</string>
     <string name="ResetMyAccount">KONTO ZURÜCKSETZEN</string>
     <string name="ResetMyAccountText">Wenn du dein Konto zurücksetzt, verlierst du alle Chats und Nachrichten, ebenso deine geteilten Bilder und Videos.</string>
     <string name="ResetMyAccountWarning">Warnung</string>
@@ -802,7 +855,7 @@
     <string name="PasswordRecovery">Kennwort zurücksetzen</string>
     <string name="PasswordCode">Code</string>
     <string name="PasswordReset">Kennwort deaktiviert</string>
-    <string name="EnabledPasswordText">Du hast die zweistufige Bestätigung aktiviert.\nWenn du dich bei Telegram anmeldest, brauchst du dein Kennwort.</string>
+    <string name="EnabledPasswordText">Du hast die zweistufige Bestätigung aktiviert.\nWenn du dich bei Deep Telegram anmeldest, brauchst du dein Kennwort.</string>
     <string name="PendingEmailText">Deine E-Mail Adresse %1$s wurde noch verifiziert und ist daher noch nicht aktiv.</string>
     <!--privacy settings-->
     <string name="PrivacySettings">Privatsphäre und Sicherheit</string>
@@ -850,10 +903,8 @@
     <string name="CreateGroupError">Du kannst mit diesen Nutzern keine Gruppe erstellen, weil sie es nicht erlauben.</string>
     <!--edit video view-->
     <string name="EditVideo">Video bearbeiten</string>
-    <string name="OriginalVideo">Originalvideo</string>
-    <string name="EditedVideo">Bearbeitetes Video</string>
     <string name="SendingVideo">Sende Video...</string>
-    <string name="CompressVideo">Video komprimieren</string>
+    <string name="SendingGif">Sende gif...</string>
     <!--bot-->
     <string name="Bot">Bot</string>
     <string name="BotShare">Teilen</string>
@@ -866,7 +917,7 @@
     <string name="BotStart">STARTEN</string>
     <string name="BotUnblock">NEU STARTEN</string>
     <string name="BotStop">Bot Anhalten</string>
-    <string name="BotRestart">Bot Neu Starten</string>
+    <string name="BotRestart">Bot neu starten</string>
     <!--button titles-->
     <string name="Next">Weiter</string>
     <string name="Back">Zurück</string>
@@ -903,6 +954,10 @@
     <string name="ActionYouKickUser">Du hast un2 aus der Gruppe entfernt</string>
     <string name="ActionYouLeftUser">Du hast die Gruppe verlassen</string>
     <string name="ActionYouAddUser">Du hast un2 hinzugefügt</string>
+    <string name="ActionYouScored">Du hast %1$s erzielt</string>
+    <string name="ActionUserScored">un1 hat %1$s erzielt</string>
+    <string name="ActionYouScoredInGame">Du hast %1$s bei un2 erzielt</string>
+    <string name="ActionUserScoredInGame">un1 hat %1$s bei un2 erzielt</string>
     <string name="ActionYouRemovedPhoto">Du hast das Gruppenbild entfernt</string>
     <string name="ActionYouChangedPhoto">Du hast das Gruppenbild geändert</string>
     <string name="ActionYouChangedTitle">Du hast den Gruppennamen in un2 geändert</string>
@@ -912,7 +967,7 @@
     <string name="ActionAddUserSelf">un1 ist in die Gruppe zurückgekehrt</string>
     <string name="ActionAddUserSelfMega">un1 ist der Gruppe beigetreten</string>
     <string name="ActionAddUserSelfYou">Du bist in die Gruppe zurückgekehrt</string>
-    <string name="UnsupportedMedia">Diese Nachricht wird von deiner Telegram-Version nicht unterstützt. Bitte aktualisiere Telegram um sie zu sehen: https://telegram.org/update</string>
+    <string name="UnsupportedMedia">Diese Nachricht wird von deiner Deep Telegram-Version nicht unterstützt. Bitte aktualisiere Deep Telegram um sie zu sehen: https://telegram.org/update</string>
     <string name="AttachPhoto">Bild</string>
     <string name="AttachVideo">Video</string>
     <string name="AttachGif">GIF</string>
@@ -921,11 +976,13 @@
     <string name="AttachDocument">Datei</string>
     <string name="AttachSticker">Sticker</string>
     <string name="AttachAudio">Sprachnachricht</string>
+    <string name="AttachGame">Spiel</string>
     <string name="FromYou">Du</string>
     <string name="ActionTakeScreenshootYou">Du hast ein Bildschirmfoto gemacht!</string>
     <string name="ActionTakeScreenshoot">un1 hat ein Bildschirmfoto gemacht!</string>
     <!--Alert messages-->
     <string name="InvalidPhoneNumber">Ungültige Telefonnummer</string>
+    <string name="BannedPhoneNumber">Gesperrte Telefonnummer</string>
     <string name="CodeExpired">Code ist abgelaufen, bitte melde dich erneut an</string>
     <string name="FloodWait">Zu viele Versuche in zu kurzer Zeit, versuche es bitte später erneut.</string>
     <string name="FloodWaitTime">Zu viele Versuche, bitte erneut in %1$s versuchen</string>
@@ -936,7 +993,7 @@
     <string name="NoPlayerInstalled">Du hast keinen Videoplayer. Bitte installiere einen um fortzufahren.</string>
     <string name="NoMailInstalled">Bitte sende eine Email an sms@stel.com mit einer Beschreibung des Problems.</string>
     <string name="NoHandleAppInstalled">Du hast keine Applikationen, die den Dateityp \'%1$s\' öffnen könnten. Bitte installiere eine entsprechende Anwendung um fortzufahren.</string>
-    <string name="InviteUser">Dieser Benutzer hat noch kein Telegram. Möchtest du ihn einladen?</string>
+    <string name="InviteUser">Dieser Benutzer hat noch kein Deep Telegram. Möchtest du ihn einladen?</string>
     <string name="AreYouSure">Bist du sicher?</string>
     <string name="AddToTheGroupTitle">%1$s dem Chat %2$s hinzufügen?</string>
     <string name="AddToTheGroupForwardCount">Wieviele der letzten Nachrichten willst du weiterleiten?</string>
@@ -944,8 +1001,9 @@
     <string name="UserAlreadyInGroup">Nutzer befindet sich schon in der Gruppe</string>
     <string name="ForwardMessagesTo">Nachrichten an %1$s weiterleiten?</string>
     <string name="SendMessagesTo">Nachricht an %1$s senden?</string>
+    <string name="SendGameTo">Spiel mit %1$s teilen?</string>
     <string name="SendContactTo">Kontakt senden an %1$s?</string>
-    <string name="AreYouSureLogout">Wirklich abmelden?\n\nDu kannst Telegram von all deinen Geräten gleichzeitig nutzen.\n\nWichtig: Abmelden löscht deine Geheimen Chats.</string>
+    <string name="AreYouSureLogout">Wirklich abmelden?\n\nDu kannst Deep Telegram von all deinen Geräten gleichzeitig nutzen.\n\nWichtig: Abmelden löscht deine Geheimen Chats.</string>
     <string name="AreYouSureSessions">Sicher, dass du alle anderen Geräte abmelden möchtest?</string>
     <string name="AreYouSureDeleteAndExit">Gruppe löschen und verlassen?</string>
     <string name="AreYouSureDeleteThisChat">Möchtest du wirklich diesen Chat löschen?</string>
@@ -968,28 +1026,31 @@
     <string name="AreYouSureClearHistorySuper">Cache dieser Gruppe wirklich löschen?</string>
     <string name="AreYouSureDeleteMessages">Sicher, dass du %1$s löschen willst?</string>
     <string name="SendMessagesToGroup">Nachricht an %1$s senden?</string>
+    <string name="SendGameToGroup">Spiel mit %1$s teilen?</string>
     <string name="SendContactToGroup">Kontakt senden an %1$s?</string>
     <string name="ForwardMessagesToGroup">Weiterleiten an %1$s?</string>
     <string name="FeatureUnavailable">Verzeihung, diese Funktion ist derzeit in deinem Land nicht verfügbar.</string>
     <string name="NoUsernameFound">Kein Konto mit diesem Benutzernamen</string>
     <string name="BotCantJoinGroups">Keine Gruppen mit diesem Bot möglich</string>
-    <string name="SecretLinkPreviewAlert">Möchtest du die erweitere Linkvorschau in Geheimen Chats aktivieren? Die Vorschau wird auf den Telegram Servern generiert.</string>
+    <string name="SecretLinkPreviewAlert">Möchtest du die erweitere Linkvorschau in Geheimen Chats aktivieren? Die Vorschau wird auf den Deep Telegram Servern generiert.</string>
     <string name="SecretChatContextBotAlert">Inline Bots werden von Drittentwicklern erstellt. Symbole, die du nach dem Botnamen eingibst, werden an den jeweiligen Entwickler geschickt, damit der Bot funktioniert.</string>
     <string name="RaiseToSpeakAlert">Möchtest du \"Zum Sprechen ans Ohr\" für Sprachnachrichten aktivieren?</string>
     <string name="EditMessageError">Du kannst diese Nachricht nicht bearbeiten.</string>
-    <string name="AllowReadSms">Bitte erlaube Telegram den Zugriff auf SMS, so dass wir den Code automatisch in der App für dich eingeben können.</string>
-    <string name="AllowReadCall">Bitte erlaube Telegram den Zugriff auf Anrufe, so dass wir den Code automatisch in der App eingeben können.</string>
-    <string name="AllowReadCallAndSms">Bitte erlaube Telegram den Zugriff auf SMS und Anrufe, so dass wir den Code automatisch in der App eingeben können.</string>
+    <string name="AllowReadSms">Bitte erlaube Deep Telegram den Zugriff auf SMS, so dass wir den Code automatisch in der App für dich eingeben können.</string>
+    <string name="AllowReadCall">Bitte erlaube Deep Telegram den Zugriff auf Anrufe, so dass wir den Code automatisch in der App eingeben können.</string>
+    <string name="AllowReadCallAndSms">Bitte erlaube Deep Telegram den Zugriff auf SMS und Anrufe, so dass wir den Code automatisch in der App eingeben können.</string>
     <string name="UserRestricted">Du kannst diese Aktion nicht durchführen.</string>
+    <string name="JoinGroup">GRUPPE BEITRETEN</string>
     <!--permissions-->
-    <string name="PermissionContacts">Telegram benötigt Zugriff auf deine Kontakte um dich auf all denen Geräten mit deinen Freunden zu verbinden. </string>
-    <string name="PermissionStorage">Telegram benötigt Zugriff auf deinen Speicher, damit du Bilder, Videos und Musik senden und speichern kannst.</string>
-    <string name="PermissionNoAudio">Telegram benötigt Zugriff auf dein Mikrofon, damit du Sprachnachrichten senden kannst. </string>
-    <string name="PermissionNoLocation">Telegram benötigt Zugriff auf deinen Standort, damit du ihn mit Freunden teilen kannst. </string>
-    <string name="PermissionNoLocationPosition">Telegram benötigt Zugriff auf deinen Standort.</string>
+    <string name="PermissionContacts">Deep Telegram benötigt Zugriff auf deine Kontakte um dich auf all denen Geräten mit deinen Freunden zu verbinden. </string>
+    <string name="PermissionStorage">Deep Telegram benötigt Zugriff auf deinen Speicher, damit du Bilder, Videos und Musik senden und speichern kannst.</string>
+    <string name="PermissionNoAudio">Deep Telegram benötigt Zugriff auf dein Mikrofon, damit du Sprachnachrichten senden kannst. </string>
+    <string name="PermissionNoCamera">Deep Telegram benötigt Zugriff auf deine Kamera, damit du Bilder und Videos aufnehmen kannst.</string>
+    <string name="PermissionNoLocation">Deep Telegram benötigt Zugriff auf deinen Standort, damit du ihn mit Freunden teilen kannst. </string>
+    <string name="PermissionNoLocationPosition">Deep Telegram benötigt Zugriff auf deinen Standort.</string>
     <string name="PermissionOpenSettings">EINSTELLUNGEN</string>
     <!--Intro view-->
-    <string name="Page1Title">Telegram</string>
+    <string name="Page1Title">Deep Telegram</string>
     <string name="Page2Title">Schnell</string>
     <string name="Page3Title">Kostenlos</string>
     <string name="Page4Title">Sicher</string>
@@ -997,12 +1058,12 @@
     <string name="Page6Title">Cloud-Basiert</string>
     <string name="Page7Title">Vertraulich</string>
     <string name="Page1Message">Die <![CDATA[<b>schnellste</b>]]> Messaging App der Welt.<![CDATA[<br/><b>Kostenlos</b>]]> und <![CDATA[<b>sicher</b>]]>.</string>
-    <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> stellt Nachrichten schneller<![CDATA[<br/>]]>zu als andere Anwendungen.</string>
-    <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> ist für immer kostenlos.<![CDATA[<br/>]]>Keine Werbung. Keine Abo-Gebühr.</string>
-    <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> schützt deine Nachrichten <![CDATA[<br/>]]>vor Hacker-Angriffen.</string>
-    <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> unterstützt unbegrenzt große <![CDATA[<br/>]]>Chats und Mediendateien.</string>
-    <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> lässt sich von verschiedenen Geräten<![CDATA[<br/>]]>gleichzeitig nutzen.</string>
-    <string name="Page7Message"><![CDATA[<b>Telegram</b>]]>-Nachrichten sind stark verschlüsselt<![CDATA[<br/>]]>und können sich selbst zerstören.</string>
+    <string name="Page2Message"><![CDATA[<b>Deep Telegram</b>]]> stellt Nachrichten schneller<![CDATA[<br/>]]>zu als andere Anwendungen.</string>
+    <string name="Page3Message"><![CDATA[<b>Deep Telegram</b>]]> ist für immer kostenlos.<![CDATA[<br/>]]>Keine Werbung. Keine Abo-Gebühr.</string>
+    <string name="Page4Message"><![CDATA[<b>Deep Telegram</b>]]> schützt deine Nachrichten <![CDATA[<br/>]]>vor Hacker-Angriffen.</string>
+    <string name="Page5Message"><![CDATA[<b>Deep Telegram</b>]]> unterstützt unbegrenzt große <![CDATA[<br/>]]>Chats und Mediendateien.</string>
+    <string name="Page6Message"><![CDATA[<b>Deep Telegram</b>]]> lässt sich von verschiedenen Geräten<![CDATA[<br/>]]>gleichzeitig nutzen.</string>
+    <string name="Page7Message"><![CDATA[<b>Deep Telegram</b>]]>-Nachrichten sind stark verschlüsselt<![CDATA[<br/>]]>und können sich selbst zerstören.</string>
     <string name="StartMessaging">Jetzt beginnen</string>
     <!--plural-->
     <string name="Online_zero">%1$d online</string>
@@ -1119,6 +1180,12 @@
     <string name="Photos_few">%1$d Bilder</string>
     <string name="Photos_many">%1$d Bilder</string>
     <string name="Photos_other">%1$d Bilder</string>
+    <string name="Points_zero">%1$d Punkte</string>
+    <string name="Points_one">%1$d Punkt</string>
+    <string name="Points_two">%1$d Punkte</string>
+    <string name="Points_few">%1$d Punkte</string>
+    <string name="Points_many">%1$d Punkte</string>
+    <string name="Points_other">%1$d Punkte</string>
     <string name="LastSeenMinutes_zero">zul. online vor %1$d Minuten</string>
     <string name="LastSeenMinutes_one">zul. online vor %1$d Minute</string>
     <string name="LastSeenMinutes_two">zul. online vor %1$d Minuten</string>
@@ -1131,6 +1198,30 @@
     <string name="LastSeenHours_few">zul. online vor %1$d Stunden</string>
     <string name="LastSeenHours_many">zul. online vor %1$d Stunden</string>
     <string name="LastSeenHours_other">zul. online vor %1$d Stunden</string>
+    <string name="SecondsBold_zero"><![CDATA[<b>%1$d</b>]]> Sekunden</string>
+    <string name="SecondsBold_one"><![CDATA[<b>%1$d</b>]]> Sekunde</string>
+    <string name="SecondsBold_two"><![CDATA[<b>%1$d</b>]]> Sekunden</string>
+    <string name="SecondsBold_few"><![CDATA[<b>%1$d</b>]]> Sekunden</string>
+    <string name="SecondsBold_many"><![CDATA[<b>%1$d</b>]]> Sekunden</string>
+    <string name="SecondsBold_other"><![CDATA[<b>%1$d</b>]]> Sekunden</string>
+    <string name="MinutesBold_zero"><![CDATA[<b>%1$d</b>]]> Minuten</string>
+    <string name="MinutesBold_one"><![CDATA[<b>%1$d</b>]]> Minute</string>
+    <string name="MinutesBold_two"><![CDATA[<b>%1$d</b>]]> Minuten</string>
+    <string name="MinutesBold_few"><![CDATA[<b>%1$d</b>]]> Minuten</string>
+    <string name="MinutesBold_many"><![CDATA[<b>%1$d</b>]]> Minuten</string>
+    <string name="MinutesBold_other"><![CDATA[<b>%1$d</b>]]> Minuten</string>
+    <string name="HoursBold_zero"><![CDATA[<b>%1$d</b>]]> Stunden</string>
+    <string name="HoursBold_one"><![CDATA[<b>%1$d</b>]]> Stunde</string>
+    <string name="HoursBold_two"><![CDATA[<b>%1$d</b>]]> Stunden</string>
+    <string name="HoursBold_few"><![CDATA[<b>%1$d</b>]]> Stunden</string>
+    <string name="HoursBold_many"><![CDATA[<b>%1$d</b>]]> Stunden</string>
+    <string name="HoursBold_other"><![CDATA[<b>%1$d</b>]]> Stunden</string>
+    <string name="DaysBold_zero"><![CDATA[<b>%1$d</b>]]> Tage</string>
+    <string name="DaysBold_one"><![CDATA[<b>%1$d</b>]]> Tag</string>
+    <string name="DaysBold_two"><![CDATA[<b>%1$d</b>]]> Tage</string>
+    <string name="DaysBold_few"><![CDATA[<b>%1$d</b>]]> Tage</string>
+    <string name="DaysBold_many"><![CDATA[<b>%1$d</b>]]> Tage</string>
+    <string name="DaysBold_other"><![CDATA[<b>%1$d</b>]]> Tage</string>
     <!--forwarded messages-->
     <string name="ForwardedMessage_zero">%1$d angehängten Nachrichten</string>
     <string name="ForwardedMessage_one">Angehängte Nachricht</string>

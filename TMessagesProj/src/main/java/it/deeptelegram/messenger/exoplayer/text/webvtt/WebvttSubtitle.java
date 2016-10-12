@@ -15,13 +15,11 @@
  */
 package it.deeptelegram.messenger.exoplayer.text.webvtt;
 
+import android.text.SpannableStringBuilder;
 import it.deeptelegram.messenger.exoplayer.text.Cue;
 import it.deeptelegram.messenger.exoplayer.text.Subtitle;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.text.SpannableStringBuilder;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;

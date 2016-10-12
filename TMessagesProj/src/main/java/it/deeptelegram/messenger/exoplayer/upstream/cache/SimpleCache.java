@@ -15,10 +15,8 @@
  */
 package it.deeptelegram.messenger.exoplayer.upstream.cache;
 
-import it.deeptelegram.messenger.exoplayer.util.Assertions;
-
 import android.os.ConditionVariable;
-
+import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -254,6 +252,7 @@ public final class SimpleCache implements Cache {
         }
       }
     }
+    evictor.onCacheInitialized();
   }
 
   /**

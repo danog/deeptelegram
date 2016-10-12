@@ -15,6 +15,10 @@
  */
 package it.deeptelegram.messenger.exoplayer.metadata;
 
+import android.os.Handler;
+import android.os.Handler.Callback;
+import android.os.Looper;
+import android.os.Message;
 import it.deeptelegram.messenger.exoplayer.ExoPlaybackException;
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
 import it.deeptelegram.messenger.exoplayer.MediaFormatHolder;
@@ -23,12 +27,6 @@ import it.deeptelegram.messenger.exoplayer.SampleSource;
 import it.deeptelegram.messenger.exoplayer.SampleSourceTrackRenderer;
 import it.deeptelegram.messenger.exoplayer.TrackRenderer;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
-
-import android.os.Handler;
-import android.os.Handler.Callback;
-import android.os.Looper;
-import android.os.Message;
-
 import java.io.IOException;
 
 /**

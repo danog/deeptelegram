@@ -15,10 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.util;
 
-import it.deeptelegram.messenger.exoplayer.ExoPlayerLibraryInfo;
-
 import android.os.Looper;
 import android.text.TextUtils;
+import it.deeptelegram.messenger.exoplayer.ExoPlayerLibraryInfo;
 
 /**
  * Provides methods for asserting the truth of expressions and properties.

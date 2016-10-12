@@ -15,11 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.upstream;
 
-import it.deeptelegram.messenger.exoplayer.C;
-
 import android.content.Context;
 import android.content.res.AssetManager;
-
+import it.deeptelegram.messenger.exoplayer.C;
 import java.io.EOFException;
 import java.io.IOException;
 import java.io.InputStream;

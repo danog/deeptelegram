@@ -16,7 +16,6 @@
 package it.deeptelegram.messenger.exoplayer.chunk;
 
 import it.deeptelegram.messenger.exoplayer.upstream.BandwidthMeter;
-
 import java.util.List;
 import java.util.Random;
 

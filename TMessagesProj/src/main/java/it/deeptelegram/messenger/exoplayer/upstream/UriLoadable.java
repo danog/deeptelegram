@@ -15,11 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.upstream;
 
+import android.net.Uri;
 import it.deeptelegram.messenger.exoplayer.ParserException;
 import it.deeptelegram.messenger.exoplayer.upstream.Loader.Loadable;
-
-import android.net.Uri;
-
 import java.io.IOException;
 import java.io.InputStream;
 

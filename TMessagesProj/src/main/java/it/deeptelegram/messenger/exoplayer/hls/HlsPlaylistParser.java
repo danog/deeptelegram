@@ -21,7 +21,6 @@ import it.deeptelegram.messenger.exoplayer.chunk.Format;
 import it.deeptelegram.messenger.exoplayer.hls.HlsMediaPlaylist.Segment;
 import it.deeptelegram.messenger.exoplayer.upstream.UriLoadable;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;

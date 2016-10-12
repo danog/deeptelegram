@@ -17,7 +17,6 @@ package it.deeptelegram.messenger.exoplayer.text.webvtt;
 
 import it.deeptelegram.messenger.exoplayer.ParserException;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
 import java.util.regex.Pattern;
 
 /**

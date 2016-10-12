@@ -21,7 +21,6 @@ import it.deeptelegram.messenger.exoplayer.text.SubtitleParser;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import java.util.ArrayList;
 import java.util.List;
 

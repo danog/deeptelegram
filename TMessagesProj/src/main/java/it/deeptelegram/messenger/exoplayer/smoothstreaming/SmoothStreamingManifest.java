@@ -15,15 +15,13 @@
  */
 package it.deeptelegram.messenger.exoplayer.smoothstreaming;
 
+import android.net.Uri;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.chunk.Format;
 import it.deeptelegram.messenger.exoplayer.chunk.FormatWrapper;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.UriUtil;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.net.Uri;
-
 import java.util.List;
 import java.util.UUID;
 

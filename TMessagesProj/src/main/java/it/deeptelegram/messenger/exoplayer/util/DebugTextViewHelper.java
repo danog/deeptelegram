@@ -15,11 +15,10 @@
  */
 package it.deeptelegram.messenger.exoplayer.util;
 
+import android.widget.TextView;
 import it.deeptelegram.messenger.exoplayer.CodecCounters;
 import it.deeptelegram.messenger.exoplayer.chunk.Format;
 import it.deeptelegram.messenger.exoplayer.upstream.BandwidthMeter;
-
-import android.widget.TextView;
 
 /**
  * A helper class for periodically updating debug information displayed by a {@link TextView}.

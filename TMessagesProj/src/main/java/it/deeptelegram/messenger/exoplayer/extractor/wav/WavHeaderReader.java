@@ -15,15 +15,13 @@
  */
 package it.deeptelegram.messenger.exoplayer.extractor.wav;
 
+import android.util.Log;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.ParserException;
 import it.deeptelegram.messenger.exoplayer.extractor.ExtractorInput;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.util.Log;
-
 import java.io.IOException;
 
 /** Reads a {@code WavHeader} from an input stream; supports resuming from input failures. */

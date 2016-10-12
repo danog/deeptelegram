@@ -15,17 +15,15 @@
  */
 package it.deeptelegram.messenger.exoplayer.text.subrip;
 
+import android.text.Html;
+import android.text.Spanned;
+import android.text.TextUtils;
+import android.util.Log;
 import it.deeptelegram.messenger.exoplayer.text.Cue;
 import it.deeptelegram.messenger.exoplayer.text.SubtitleParser;
 import it.deeptelegram.messenger.exoplayer.util.LongArray;
 import it.deeptelegram.messenger.exoplayer.util.MimeTypes;
 import it.deeptelegram.messenger.exoplayer.util.ParsableByteArray;
-
-import android.text.Html;
-import android.text.Spanned;
-import android.text.TextUtils;
-import android.util.Log;
-
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

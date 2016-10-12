@@ -15,11 +15,9 @@
  */
 package it.deeptelegram.messenger.exoplayer.text.ttml;
 
+import android.text.TextUtils;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
-import android.text.TextUtils;
-
 import java.util.HashMap;
 import java.util.Map;
 import java.util.regex.Matcher;

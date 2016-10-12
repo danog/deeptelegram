@@ -19,7 +19,6 @@ import it.deeptelegram.messenger.exoplayer.text.Cue;
 import it.deeptelegram.messenger.exoplayer.text.Subtitle;
 import it.deeptelegram.messenger.exoplayer.util.Assertions;
 import it.deeptelegram.messenger.exoplayer.util.Util;
-
 import java.util.Collections;
 import java.util.List;
 

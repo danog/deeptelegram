@@ -15,6 +15,8 @@
  */
 package it.deeptelegram.messenger.exoplayer.upstream.cache;
 
+import android.net.Uri;
+import android.util.Log;
 import it.deeptelegram.messenger.exoplayer.C;
 import it.deeptelegram.messenger.exoplayer.upstream.DataSink;
 import it.deeptelegram.messenger.exoplayer.upstream.DataSource;
@@ -22,10 +24,6 @@ import it.deeptelegram.messenger.exoplayer.upstream.DataSpec;
 import it.deeptelegram.messenger.exoplayer.upstream.FileDataSource;
 import it.deeptelegram.messenger.exoplayer.upstream.TeeDataSource;
 import it.deeptelegram.messenger.exoplayer.upstream.cache.CacheDataSink.CacheDataSinkException;
-
-import android.net.Uri;
-import android.util.Log;
-
 import java.io.IOException;
 import java.io.InterruptedIOException;
 

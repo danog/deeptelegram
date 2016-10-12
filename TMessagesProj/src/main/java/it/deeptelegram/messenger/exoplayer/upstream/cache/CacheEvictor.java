@@ -21,6 +21,9 @@ package it.deeptelegram.messenger.exoplayer.upstream.cache;
  */
 public interface CacheEvictor extends Cache.Listener {
 
+  /** Invoked when cache has beeen initialized. */
+  void onCacheInitialized();
+
   /**
    * Invoked when a writer starts writing to the cache.
    *

@@ -1,5 +1,5 @@
 <!--
-  ~ This is the source code of Telegram for Android v. 3.x.x.
+  ~ This is the source code of Deep Telegram for Android v. 3.x.x.
   ~ It is licensed under GNU GPL v. 2 or later.
   ~ You should have received a copy of the license in this archive (see LICENSE).
   ~
@@ -49,6 +49,19 @@
 
     <style name="Theme.TMessages.Dialog.Alert" parent="android:style/Theme.Material.Light.Dialog.Alert">
         <item name="android:colorAccent">#4991cc</item>
+    </style>
+
+    <style name="Theme.TMessages.Transparent" parent="Theme.TMessages">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:windowActionBar">false</item>
     </style>
 
     <!--ACTION BAR-->

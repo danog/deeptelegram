@@ -16,7 +16,6 @@
 package it.deeptelegram.messenger.exoplayer.util;
 
 import it.deeptelegram.messenger.exoplayer.MediaFormat;
-
 import java.nio.ByteBuffer;
 
 /**

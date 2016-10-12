@@ -1,0 +1,18 @@
+Executable : /home/daniil/android-sdk/android-ndk-r10d/ndk-build
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=/home/daniil/pwrtelegram/deeptelegram/TMessagesProj/jni/Android.mk
+NDK_APPLICATION_MK=/home/daniil/pwrtelegram/deeptelegram/TMessagesProj/jni/Application.mk
+APP_ABI=armeabi-v7a
+NDK_ALL_ABIS=armeabi-v7a
+NDEBUG=0
+APP_PLATFORM=android-14
+NDK_OUT=/home/daniil/pwrtelegram/deeptelegram/TMessagesProj/build/intermediates/ndkBuild/fat/foss/obj
+NDK_LIBS_OUT=/home/daniil/pwrtelegram/deeptelegram/TMessagesProj/build/intermediates/ndkBuild/fat/foss/lib
+NDK_APPLICATION_MK:=jni/Application.mk
+APP_PLATFORM:=android-14
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-n
+jvmArgs : 
+

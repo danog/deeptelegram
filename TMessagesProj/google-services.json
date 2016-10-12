@@ -1,49 +1,42 @@
 {
   "project_info": {
-    "project_id": "tmessages2",
-    "project_number": "760348033671",
-    "name": "Deep Telegram"
+    "project_number": "884659039263",
+    "firebase_url": "https://deep-telegram.firebaseio.com",
+    "project_id": "deep-telegram",
+    "storage_bucket": "deep-telegram.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:760348033671:android:f6afd7b67eae3860",
-        "client_id": "android:it.deeptelegram.messenger",
-        "client_type": 1,
+        "mobilesdk_app_id": "1:884659039263:android:8b7fb2fc0580fb39",
         "android_client_info": {
-          "package_name": "it.deeptelegram.messenger",
-          "certificate_hash": []
+          "package_name": "it.deeptelegram.messenger"
         }
       },
-      "oauth_client": [],
-      "api_key": [],
-      "services": {
-        "cloud_messaging_service": {
-          "status": 2,
-          "apns_config": []
+      "oauth_client": [
+        {
+          "client_id": "884659039263-qs0jjpfs90pse5asu0mdlsdbq7hei6ib.apps.googleusercontent.com",
+          "client_type": 3
         }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:760348033671:android:dc022572c167a16c",
-        "client_id": "android:it.deeptelegram.messenger.beta",
-        "client_type": 1,
-        "android_client_info": {
-          "package_name": "it.deeptelegram.messenger.beta",
-          "certificate_hash": []
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGYpwE40k3rwEu81K_Srnc64yLKiHcE1s"
         }
-      },
-      "oauth_client": [],
-      "api_key": [],
+      ],
       "services": {
-        "cloud_messaging_service": {
-          "status": 2,
-          "apns_config": []
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
         }
       }
     }
   ],
-  "client_info": [],
-  "ARTIFACT_VERSION": "1"
+  "configuration_version": "1"
 }
